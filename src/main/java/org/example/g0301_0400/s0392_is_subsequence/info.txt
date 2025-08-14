@@ -1,0 +1,43 @@
+Подходы к решению
+1. Два указателя (оптимальное решение)
+Используем два указателя для параллельного прохода по обеим строкам.
+
+2. Динамическое программирование
+Более сложный подход с таблицей DP (избыточный для этой задачи).
+
+3. Бинарный поиск (для множественных проверок)
+Оптимизированный подход, если нужно много раз проверять разные s против одного t.
+
+============
+
+Альтернативное решение (рекурсивное)
+
+public class Solution {
+    public boolean isSubsequence(String s, String t) {
+        return helper(s, t, 0, 0);
+    }
+
+    private boolean helper(String s, String t, int sIndex, int tIndex) {
+        // Базовый случай - дошли до конца s
+        if (sIndex == s.length()) {
+            return true;
+        }
+        // Базовый случай - дошли до конца t, но не дошли до конца s
+        if (tIndex == t.length()) {
+            return false;
+        }
+        // Если символы совпадают, ищем следующий
+        if (s.charAt(sIndex) == t.charAt(tIndex)) {
+            return helper(s, t, sIndex + 1, tIndex + 1);
+        }
+        // Иначе двигаемся дальше по t
+        return helper(s, t, sIndex, tIndex + 1);
+    }
+}
+
+=================
+
+Вариации задачи
+Number of Matching Subsequences (Leetcode 792) - подсчет количества подпоследовательностей
+Shortest Way to Form String (Leetcode 1055) - найти минимальное количество подпоследовательностей t, из которых можно составить s
+Longest Uncommon Subsequence (Leetcode 521) - найти самую длинную неповторяющуюся подпоследовательность
