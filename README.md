@@ -21,15 +21,15 @@ https://github.com/YarTsin/leetcode_java/tree/main/
 <b>Array</b> <br> 
 В этом разделе чаще всего находятся находятся задачи, использующие массивы <br>
 Примечания: мажоритарный элемент - элемент, который встречается более n/2 раз.<br>
-[1. Two Sum](https://github.com/YarTsin/leetcode_java/tree/main/src/main/java/org/example/g0001_0100/s0001_two_sum) &nbsp;&nbsp;
-[14. Longest Common Prefix](https://github.com/YarTsin/leetcode_java/tree/main/src/main/java/org/example/g0001_0100/s0014_longest_common_prefix) &nbsp;&nbsp;
-[66. Plus One](https://github.com/YarTsin/leetcode_java/tree/main/src/main/java/org/example/g0001_0100/s0066_plus_one) &nbsp;&nbsp;
-[88. Merge Sorted Array](https://github.com/YarTsin/leetcode_java/tree/main/src/main/java/org/example/g0001_0100/s0088_merge_sorted_array) &nbsp;&nbsp;
-[169. Majority Element](https://github.com/YarTsin/leetcode_java/tree/main/src/main/java/org/example/g0101_0200/s0169_majority_element) &nbsp;&nbsp;
-[217. Contains Duplicate](https://github.com/YarTsin/leetcode_java/tree/main/src/main/java/org/example/g0201_0300/s0217_contains_duplicate) &nbsp;&nbsp;
-[219. Contains Duplicate II](https://github.com/YarTsin/leetcode_java/tree/main/src/main/java/org/example/g0201_0300/s0219_contains_duplicate_ii) &nbsp;&nbsp;
-[268. Missing Number](https://github.com/YarTsin/leetcode_java/tree/main/src/main/java/org/example/g0201_0300/s0268_missing_number) &nbsp;&nbsp;
-[2900. Longest Unequal Adjacent Groups Subsequence I](https://github.com/YarTsin/leetcode_java/tree/main/src/main/java/org/example/g2801_2900/p2900_longest_unequal_adjacent_groups_subsequence_i) &nbsp;&nbsp;
+[1. Two Sum](src/main/java/org/example/g0001_0100/s0001_two_sum) &nbsp;&nbsp;
+[14. Longest Common Prefix](src/main/java/org/example/g0001_0100/s0014_longest_common_prefix) &nbsp;&nbsp;
+[66. Plus One](src/main/java/org/example/g0001_0100/s0066_plus_one) &nbsp;&nbsp;
+[88. Merge Sorted Array](src/main/java/org/example/g0001_0100/s0088_merge_sorted_array) &nbsp;&nbsp;
+[169. Majority Element](src/main/java/org/example/g0101_0200/s0169_majority_element) &nbsp;&nbsp;
+[217. Contains Duplicate](src/main/java/org/example/g0201_0300/s0217_contains_duplicate) &nbsp;&nbsp;
+[219. Contains Duplicate II](src/main/java/org/example/g0201_0300/s0219_contains_duplicate_ii) &nbsp;&nbsp;
+[268. Missing Number](src/main/java/org/example/g0201_0300/s0268_missing_number) &nbsp;&nbsp;
+[2900. Longest Unequal Adjacent Groups Subsequence I](src/main/java/org/example/g2801_2900/p2900_longest_unequal_adjacent_groups_subsequence_i) &nbsp;&nbsp;
 <br><br>
 
 <b>Binary search</b> <br>
