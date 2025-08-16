@@ -10,19 +10,16 @@ package org.example.g0201_0300.s0231_power_of_two;
  *
  * Оптимальное решение: битовые операции
  */
-public class Solution {
+class Solution {
     public boolean isPowerOfTwo(int n) {
+        // Числа <= 0 не могут быть степенями двойки
         if (n <= 0) {
             return false;
         }
-        while (true) {
-            if (n == 1) {
-                return true;
-            }
-            if (n % 2 == 1) {
-                return false;
-            }
-            n /= 2;
-        }
+
+        // Степень двойки в битовом представлении имеет только одну единицу
+        // n & (n - 1) обнуляет младший значащий бит
+        // Для степени двойки результат будет 0
+        return (n & (n - 1)) == 0;
     }
 }
