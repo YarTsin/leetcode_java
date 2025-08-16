@@ -42,6 +42,7 @@
 [231. Power Of Two](src/main/java/org/example/g0201_0300/s0231_power_of_two) &nbsp;&nbsp;
 [268. Missing Number](src/main/java/org/example/g0201_0300/s0268_missing_number) &nbsp;&nbsp;
 [338. Counting Bits](src/main/java/org/example/g0301_0400/s0338_counting_bits) &nbsp;&nbsp;
+[342. Power Of Four](src/main/java/org/example/g0301_0400/s0342_power_of_four) &nbsp;&nbsp;
 <br><br>
 
 <b>Dynamic Programming</b> <br>
@@ -57,6 +58,7 @@
 используют сохранённые результаты для решения более сложных задач.<br>
 (как я понимаю, это часто похоже на работу с указателями) <br>
 [70. Climbing Stairs](src/main/java/org/example/g0001_0100/s0070_climbing_stairs)  &nbsp;&nbsp;
+[292. Nim Game](src/main/java/org/example/g0201_0300/s0292_nim_game) &nbsp;&nbsp;
 [746. Min Cost Climbing Stairs](src/main/java/org/example/g0701_0800/s0746_min_cost_climbing_stairs) &nbsp;&nbsp;
 [509. Fibonacci Number](src/main/java/org/example/g0501_0600/s0509_fibonacci_number) &nbsp;&nbsp;
 [1137. N th Tribonacci Number](src/main/java/org/example/g1101_1200/s1137_n_th_tribonacci_number) &nbsp;&nbsp;
@@ -79,13 +81,23 @@
 <br><br>
 
 <b>Math</b><br>
-Математические структуры и задачи<br>
-Примечения: Палиндром - это число (или строка), которое читается одинаково в обоих направлениях.<br>
+Как правило это зачи с цифрами, числами, или использующие какие-то 
+математические свойства и особенности<br>
+Примечения: Палиндром - это число (или строка), которое читается одинаково 
+в обоих направлениях. 
+Цифровой корень числа — это однозначное число, которое получается путём 
+последовательного сложения всех цифр исходного числа, пока не останется одна цифра.
+<br>
 [9. Palindrome number](src/main/java/org/example/g0001_0100/s0009_palindrome_number) &nbsp;&nbsp;
 [69. Sqrtx](src/main/java/org/example/g0001_0100/s0069_sqrtx) &nbsp;&nbsp;
 [118. Pascals Triangle](src/main/java/org/example/g0101_0200/s0118_pascals_triangle) &nbsp;&nbsp;
 [119. Pascals Triangle II](src/main/java/org/example/g0101_0200/s0119_pascals_triangle_ii) &nbsp;&nbsp;
 [202. Happy Number](src/main/java/org/example/g0201_0300/s0202_happy_number) &nbsp;&nbsp;
+[263. Ugly Number](src/main/java/org/example/g0201_0300/s0263_ugly_number) &nbsp;&nbsp;
+[258. Add Digits](src/main/java/org/example/g0201_0300/s0258_add_digits) &nbsp;&nbsp;
+[292. Nim Game](src/main/java/org/example/g0201_0300/s0292_nim_game) &nbsp;&nbsp;
+[326. Power Of Three](src/main/java/org/example/g0301_0400/s0326_power_of_three) &nbsp;&nbsp;
+[342. Power Of Four](src/main/java/org/example/g0301_0400/s0342_power_of_four) &nbsp;&nbsp;
 [1025. Divisor game](src/main/java/org/example/g1001_1100/s1025_divisor_game) &nbsp;&nbsp;
 <br><br>
 
