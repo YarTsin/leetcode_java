@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * LeetCode Easy
+ * LeetCode #Easy #Array
  * Задача "Two Sum" (Две суммы) с LeetCode требует найти в массиве два числа,
  * которые в сумме дают заданное целевое значение.
  * Нужно вернуть индексы этих двух чисел.

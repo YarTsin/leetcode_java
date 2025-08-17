@@ -1,6 +1,7 @@
 package org.example.g0101_0200.s0171_excel_sheet_column_number;
 
 /**
+ *
  * Альтернативный вариант С использованием стримов (Java 8+):
  */
 public class Solution2 {

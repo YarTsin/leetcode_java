@@ -1,7 +1,12 @@
 <h3> Решаем задачки LeetCode на Java </h3>
 Пробуем собрать, разобрать и решить по нескольку задач в каждом направлении<br>
-Задачи распределены по особенностям самих задач и их решений<br>
-Многие задачи могут находится одновременно в разных категориях<br>
+Задачи распределены по особенностям самих задач и их решений.<br>
+
+Многие задачи могут находится одновременно в разных категориях.<br>
+Если вы склонируете проект себе на компьютер, то вы сможете искать 
+или наоборот проставлять метки к задачам например: 
+#Easy, #Medium, #Array, #String и другие. 
+
 Ко многим задачам добавлены комментарии и пояснения для лучшего понимания<br>
 Для работы используется Java 8<br>
 Желаю вам удачно пройти алгоритмическую секцию!<br><br>
@@ -22,9 +27,11 @@
 [169. Majority Element](src/main/java/org/example/g0101_0200/s0169_majority_element) &nbsp;&nbsp;
 [217. Contains Duplicate](src/main/java/org/example/g0201_0300/s0217_contains_duplicate) &nbsp;&nbsp;
 [219. Contains Duplicate II](src/main/java/org/example/g0201_0300/s0219_contains_duplicate_ii) &nbsp;&nbsp;
+[252. Meeting Rooms](src/main/java/org/example/g0201_0300/s0252_meeting_rooms) &nbsp;&nbsp;
 [268. Missing Number](src/main/java/org/example/g0201_0300/s0268_missing_number) &nbsp;&nbsp;
 [349. Intersection Of Two Arrays](src/main/java/org/example/g0301_0400/s0349_intersection_of_two_arrays) &nbsp;&nbsp;
 [350. Intersection Of Two Arrays II](src/main/java/org/example/g0301_0400/s0350_intersection_of_two_arrays_ii) &nbsp;&nbsp;
+[414. Third Maximum Number](src/main/java/org/example/g0401_0500/s0414_third_maximum_number) &nbsp;&nbsp;
 [2900. Longest Unequal Adjacent Groups Subsequence I](src/main/java/org/example/g2801_2900/p2900_longest_unequal_adjacent_groups_subsequence_i) &nbsp;&nbsp;
 <br><br>
 
@@ -36,7 +43,6 @@
 [367. Valid Perfect Square](src/main/java/org/example/g0301_0400/s0367_valid_perfect_square) &nbsp;&nbsp;
 <br><br>
 
-
 <b>Bits</b> <br>
 Операции с битами <br>
 [67. Add Binary](src/main/java/org/example/g0001_0100/s0067_add_binary)
@@ -44,6 +50,8 @@
 [268. Missing Number](src/main/java/org/example/g0201_0300/s0268_missing_number) &nbsp;&nbsp;
 [338. Counting Bits](src/main/java/org/example/g0301_0400/s0338_counting_bits) &nbsp;&nbsp;
 [342. Power Of Four](src/main/java/org/example/g0301_0400/s0342_power_of_four) &nbsp;&nbsp;
+[389. Find The Difference](src/main/java/org/example/g0301_0400/s0389_find_the_difference) &nbsp;&nbsp;
+[405. Convert A Number TO Hexadecimal](src/main/java/org/example/g0401_0500/s0405_convert_a_number_to_hexadecimal) &nbsp;&nbsp;
 <br><br>
 
 <b>Dynamic Programming</b> <br>
@@ -102,6 +110,7 @@
 [326. Power Of Three](src/main/java/org/example/g0301_0400/s0326_power_of_three) &nbsp;&nbsp;
 [342. Power Of Four](src/main/java/org/example/g0301_0400/s0342_power_of_four) &nbsp;&nbsp;
 [367. Valid Perfect Square](src/main/java/org/example/g0301_0400/s0367_valid_perfect_square) &nbsp;&nbsp;
+[405. Convert A Number TO Hexadecimal](src/main/java/org/example/g0401_0500/s0405_convert_a_number_to_hexadecimal) &nbsp;&nbsp;
 [1025. Divisor game](src/main/java/org/example/g1001_1100/s1025_divisor_game) &nbsp;&nbsp;
 <br><br>
 
@@ -122,6 +131,12 @@
 [1137. N th Tribonacci Number](src/main/java/org/example/g1101_1200/s1137_n_th_tribonacci_number) &nbsp;&nbsp;
 <br><br>
 
+<b>Sort</b><br>
+Задачи, использующие для решения сортировку
+[252. Meeting Rooms](src/main/java/org/example/g0201_0300/s0252_meeting_rooms) &nbsp;&nbsp;
+[414. Third Maximum Number](src/main/java/org/example/g0401_0500/s0414_third_maximum_number) &nbsp;&nbsp;
+
+
 <b>String</b><br>
 В этом разделе находятся задачи, использующие строки<br>
 Примечания: Подпоследовательность (subsequence) - это последовательность символов,
@@ -141,6 +156,7 @@
 [205. Isomorphic Strings](src/main/java/org/example/g0201_0300/s0205_isomorphic_strings) &nbsp;&nbsp;
 [242. Valid Аnagram](src/main/java/org/example/g0201_0300/s0242_valid_anagram) &nbsp;&nbsp;
 [290. Word Pattern](src/main/java/org/example/g0201_0300/s0290_word_pattern) &nbsp;&nbsp;
+[389. Find The Difference](src/main/java/org/example/g0301_0400/s0389_find_the_difference) &nbsp;&nbsp;
 [392. Is Subsequence](src/main/java/org/example/g0301_0400/s0392_is_subsequence) &nbsp;&nbsp;
 [1668. Maximum Repeating Substring](src/main/java/org/example/g1601_1700/s1668_maximum_repeating_substring) &nbsp;&nbsp;
 [2900. Longest Unequal Adjacent Groups Subsequence I](src/main/java/org/example/g2801_2900/p2900_longest_unequal_adjacent_groups_subsequence_i) &nbsp;&nbsp;

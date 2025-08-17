@@ -1,7 +1,7 @@
 package org.example.g0001_0100.s0067_add_binary;
 
 /**
- * LeetCode Easy
+ * LeetCode #Easy #String #Bits
  * Задача требует сложить две двоичные строки и вернуть
  * их сумму также в виде двоичной строки. Например:
  * Ввод: a = "11", b = "1"

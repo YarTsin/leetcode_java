@@ -2,7 +2,7 @@ package org.example.g0001_0100.s0058_length_of_last_word;
 
 
 /**
- * LeetCode Easy
+ * LeetCode #Easy #String
  * Дана строка s, состоящая из слов и пробелов.
  * Необходимо вернуть длину последнего слова в строке.
  *

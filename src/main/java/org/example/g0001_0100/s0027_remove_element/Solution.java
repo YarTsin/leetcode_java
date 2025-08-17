@@ -1,7 +1,7 @@
 package org.example.g0001_0100.s0027_remove_element;
 
 /**
- * LeetCode Easy
+ * LeetCode #Easy #Math
  * Нужно удалить все вхождения числа val из массива на месте
  * (без создания нового массива) и вернуть новую длину.
  *

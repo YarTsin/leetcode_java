@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * LeetCode Easy
+ * LeetCode #Easy #String
  * Понимание задачи
  * Задача требует определить, являются ли две строки изоморфными.
  * Две строки считаются изоморфными, если символы первой строки

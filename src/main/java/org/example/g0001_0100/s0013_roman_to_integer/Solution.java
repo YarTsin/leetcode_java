@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * LeetCode Easy
+ * LeetCode #Easy #String #HashMap
  * Задача: преобразовать римское число в целое.
  * I = 1
  * V = 5

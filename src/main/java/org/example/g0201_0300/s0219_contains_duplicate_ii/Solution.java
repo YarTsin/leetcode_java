@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * LeetCode Easy
+ * LeetCode #Easy #Array
  * Даны массив целых чисел nums и целое число k.
  * Нужно определить, существуют ли два различных индекса i и j в массиве, такие что:
  * nums[i] == nums[j] (элементы равны)

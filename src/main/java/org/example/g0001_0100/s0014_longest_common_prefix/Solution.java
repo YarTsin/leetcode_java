@@ -1,7 +1,7 @@
 package org.example.g0001_0100.s0014_longest_common_prefix;
 
 /**
- * LeetCode Easy
+ * LeetCode #Easy #String
  * Находим максимальную длину префикса массива строк
  * Пример:
  * Вход: strs = ["flower","flow","flight"]

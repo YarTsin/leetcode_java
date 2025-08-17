@@ -1,6 +1,7 @@
 package org.example.g0201_0300.s0268_missing_number;
 
 /**
+ * #Bits
  * Альтернативное  решение: Использование XOR (побитовой операции)
  */
 class Solution2 {

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * LeetCode Easy
+ * LeetCode #Easy #Math
  * Дано целое число numRows. Необходимо вернуть первые
  * numRows строк треугольника Паскаля.
  * Треугольник Паскаля — это структура, где:

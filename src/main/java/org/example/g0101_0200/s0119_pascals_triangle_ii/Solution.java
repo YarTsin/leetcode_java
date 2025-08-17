@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * LeetCode Easy
+ * LeetCode #Easy #Math
  * Условие
  * Дано целое число rowIndex (начинается с 0).
  * Необходимо вернуть строку с индексом rowIndex из треугольника Паскаля.

@@ -1,6 +1,7 @@
 package org.example.g0201_0300.s0263_ugly_number;
 
 /**
+ * #Recursion
  * Рекурсивный подход (альтернативное решение)
  *
  */
