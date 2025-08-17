@@ -33,6 +33,7 @@
 [35. Search Insert Position](src/main/java/org/example/g0001_0100/s0035_search_insert_position) &nbsp;&nbsp;
 [69. Sqrtx](src/main/java/org/example/g0001_0100/s0069_sqrtx) &nbsp;&nbsp;
 [108. Convert Sorted Array To Binary Search Tree](src/main/java/org/example/g0101_0200/s0108_convert_sorted_array_to_binary_search_tree) &nbsp;&nbsp;
+[367. Valid Perfect Square](src/main/java/org/example/g0301_0400/s0367_valid_perfect_square) &nbsp;&nbsp;
 <br><br>
 
 
@@ -87,6 +88,8 @@
 в обоих направлениях. 
 Цифровой корень числа — это однозначное число, которое получается путём 
 последовательного сложения всех цифр исходного числа, пока не останется одна цифра.
+Полный квадрат — это целое число, которое является квадратом
+другого целого числа
 <br>
 [9. Palindrome number](src/main/java/org/example/g0001_0100/s0009_palindrome_number) &nbsp;&nbsp;
 [69. Sqrtx](src/main/java/org/example/g0001_0100/s0069_sqrtx) &nbsp;&nbsp;
@@ -98,6 +101,7 @@
 [292. Nim Game](src/main/java/org/example/g0201_0300/s0292_nim_game) &nbsp;&nbsp;
 [326. Power Of Three](src/main/java/org/example/g0301_0400/s0326_power_of_three) &nbsp;&nbsp;
 [342. Power Of Four](src/main/java/org/example/g0301_0400/s0342_power_of_four) &nbsp;&nbsp;
+[367. Valid Perfect Square](src/main/java/org/example/g0301_0400/s0367_valid_perfect_square) &nbsp;&nbsp;
 [1025. Divisor game](src/main/java/org/example/g1001_1100/s1025_divisor_game) &nbsp;&nbsp;
 <br><br>
 
