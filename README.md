@@ -7,7 +7,9 @@
 или наоборот проставлять метки к задачам например: 
 #Easy, #Medium, #Array, #String и другие. 
 
-Ко многим задачам добавлены комментарии и пояснения для лучшего понимания<br>
+Ко многим задачам добавлены комментарии и пояснения для лучшего понимания.
+Также для многих задач приводятся альтернативные решения и другая справочная 
+информация. Подходит для начинающих.<br> 
 Для работы используется Java 8<br>
 Желаю вам удачно пройти алгоритмическую секцию!<br><br>
 
@@ -19,7 +21,11 @@
 
 <b>Array</b> <br> 
 В этом разделе чаще всего находятся находятся задачи, использующие массивы <br>
-Примечания: мажоритарный элемент - элемент, который встречается более n/2 раз.<br>
+Примечания: мажоритарный элемент - элемент, который встречается более n/2 раз.
+Harmonious Subsequence - Определим гармоничную подпоследовательность 
+как подпоследовательность массива, в которой разница между 
+максимальным и минимальным элементами равна ровно 1, например 3,2,2,2,3.
+<br>
 [1. Two Sum](src/main/java/org/example/g0001_0100/s0001_two_sum) &nbsp;&nbsp;
 [14. Longest Common Prefix](src/main/java/org/example/g0001_0100/s0014_longest_common_prefix) &nbsp;&nbsp;
 [66. Plus One](src/main/java/org/example/g0001_0100/s0066_plus_one) &nbsp;&nbsp;
@@ -32,6 +38,10 @@
 [349. Intersection Of Two Arrays](src/main/java/org/example/g0301_0400/s0349_intersection_of_two_arrays) &nbsp;&nbsp;
 [350. Intersection Of Two Arrays II](src/main/java/org/example/g0301_0400/s0350_intersection_of_two_arrays_ii) &nbsp;&nbsp;
 [414. Third Maximum Number](src/main/java/org/example/g0401_0500/s0414_third_maximum_number) &nbsp;&nbsp;
+[455. Assign Cookies](src/main/java/org/example/g0401_0500/s0455_assign_cookies) &nbsp;&nbsp;
+[506. Relative Ranks](src/main/java/org/example/g0501_0600/s0506_relative_ranks) &nbsp;&nbsp;
+[561. Array Partition I](src/main/java/org/example/g0501_0600/s0561_array_partition_i) &nbsp;&nbsp;
+[594. Longest Harmonious Subsequence](src/main/java/org/example/g0501_0600/s0594_longest_harmonious_subsequence) &nbsp;&nbsp;
 [2900. Longest Unequal Adjacent Groups Subsequence I](src/main/java/org/example/g2801_2900/p2900_longest_unequal_adjacent_groups_subsequence_i) &nbsp;&nbsp;
 <br><br>
 
@@ -65,12 +75,22 @@
 В Java обычно делают так: создают массив или таблицу для хранения результатов подзадач,
 заполняют этот массив постепенно, начиная с самых простых случаев, 
 используют сохранённые результаты для решения более сложных задач.<br>
-(как я понимаю, это часто похоже на работу с указателями) <br>
 [70. Climbing Stairs](src/main/java/org/example/g0001_0100/s0070_climbing_stairs)  &nbsp;&nbsp;
 [292. Nim Game](src/main/java/org/example/g0201_0300/s0292_nim_game) &nbsp;&nbsp;
 [746. Min Cost Climbing Stairs](src/main/java/org/example/g0701_0800/s0746_min_cost_climbing_stairs) &nbsp;&nbsp;
 [509. Fibonacci Number](src/main/java/org/example/g0501_0600/s0509_fibonacci_number) &nbsp;&nbsp;
 [1137. N th Tribonacci Number](src/main/java/org/example/g1101_1200/s1137_n_th_tribonacci_number) &nbsp;&nbsp;
+<br><br>
+
+<b>Greedy</b><br>
+Задачи использующие "Жадный алгоритм"<br>
+Жадный алгоритм — это способ решения задач, где на каждом шаге выбирается 
+самый выгодный или лучший вариант в данный момент, не задумываясь о будущем. 
+Такой подход прост и часто эффективен, но не всегда гарантирует 
+оптимальное решение. Пример: выбор монет для сдачи, когда берём 
+сначала самые крупные монеты.
+[455. Assign Cookies](src/main/java/org/example/g0401_0500/s0455_assign_cookies) &nbsp;&nbsp;
+[561. Array Partition I](src/main/java/org/example/g0501_0600/s0561_array_partition_i) &nbsp;&nbsp;
 <br><br>
 
 <b>Hash Table</b><br>
@@ -80,6 +100,7 @@
 [290. Word Pattern](src/main/java/org/example/g0201_0300/s0290_word_pattern) &nbsp;&nbsp;
 [349. Intersection Of Two Arrays](src/main/java/org/example/g0301_0400/s0349_intersection_of_two_arrays) &nbsp;&nbsp;
 [350. Intersection Of Two Arrays II](src/main/java/org/example/g0301_0400/s0350_intersection_of_two_arrays_ii) &nbsp;&nbsp;
+[594. Longest Harmonious Subsequence](src/main/java/org/example/g0501_0600/s0594_longest_harmonious_subsequence) &nbsp;&nbsp;
 <br><br>
 
 <b>Linked List</b><br>
@@ -121,6 +142,8 @@
 [125. Valid Palindrome](src/main/java/org/example/g0101_0200/s0125_valid_palindrome) &nbsp;&nbsp;
 [141. Linked List Cycle](src/main/java/org/example/g0101_0200/s0141_linked_list_cycle) &nbsp;&nbsp;
 [392. Is Subsequence](src/main/java/org/example/g0301_0400/s0392_is_subsequence) &nbsp;&nbsp;
+[455. Assign Cookies](src/main/java/org/example/g0401_0500/s0455_assign_cookies) &nbsp;&nbsp;
+
 <br><br>
 
 <b>Recursion - Рекурсия</b><br>
@@ -132,10 +155,14 @@
 <br><br>
 
 <b>Sort</b><br>
-Задачи, использующие для решения сортировку
+Задачи, использующие для решения сортировку<br>
 [252. Meeting Rooms](src/main/java/org/example/g0201_0300/s0252_meeting_rooms) &nbsp;&nbsp;
 [414. Third Maximum Number](src/main/java/org/example/g0401_0500/s0414_third_maximum_number) &nbsp;&nbsp;
-
+[455. Assign Cookies](src/main/java/org/example/g0401_0500/s0455_assign_cookies) &nbsp;&nbsp;
+[506. Relative Ranks](src/main/java/org/example/g0501_0600/s0506_relative_ranks) &nbsp;&nbsp;
+[561. Array Partition I](src/main/java/org/example/g0501_0600/s0561_array_partition_i) &nbsp;&nbsp;
+[594. Longest Harmonious Subsequence](src/main/java/org/example/g0501_0600/s0594_longest_harmonious_subsequence) &nbsp;&nbsp;
+<br><br>
 
 <b>String</b><br>
 В этом разделе находятся задачи, использующие строки<br>
@@ -163,7 +190,7 @@
 <br><br>
 
 <b>Tree</b><br>
-Здесь помещаем задачи, которые используют деревья для решения,<br>
-например TreeNode.<br>
+Здесь помещаем задачи, которые используют деревья для решения<br>
 [108. Convert Sorted Array To Binary Search Tree](src/main/java/org/example/g0101_0200/s0108_convert_sorted_array_to_binary_search_tree) &nbsp;&nbsp;
+[506. Relative Ranks](src/main/java/org/example/g0501_0600/s0506_relative_ranks) &nbsp;&nbsp;
 <br><br>
