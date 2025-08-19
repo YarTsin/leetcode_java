@@ -1,7 +1,7 @@
 package org.example.g0001_0100.s0069_sqrtx;
 
 /**
- * LeetCode #Easy #Math
+ * LeetCode #Easy #Math #BinarySearch
  * Необходимо вычислить целочисленный квадратный корень из
  * неотрицательного числа
  *

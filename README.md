@@ -19,13 +19,14 @@
 Моя статистика: [https://leetcode.com/u/YarTsin/](https://leetcode.com/u/YarTsin/) <br>
 
 
-<b>Array</b> <br> 
+<b>Array (#Array)</b> <br> 
 В этом разделе чаще всего находятся находятся задачи, использующие массивы <br>
 Примечания: мажоритарный элемент - элемент, который встречается более n/2 раз.
 Harmonious Subsequence - Определим гармоничную подпоследовательность 
 как подпоследовательность массива, в которой разница между 
 максимальным и минимальным элементами равна ровно 1, например 3,2,2,2,3.
 <br>
+Level Easy (#Easy)<br>
 [1. Two Sum](src/main/java/org/example/g0001_0100/s0001_two_sum) &nbsp;&nbsp;
 [14. Longest Common Prefix](src/main/java/org/example/g0001_0100/s0014_longest_common_prefix) &nbsp;&nbsp;
 [66. Plus One](src/main/java/org/example/g0001_0100/s0066_plus_one) &nbsp;&nbsp;
@@ -42,19 +43,23 @@ Harmonious Subsequence - Определим гармоничную подпос�
 [506. Relative Ranks](src/main/java/org/example/g0501_0600/s0506_relative_ranks) &nbsp;&nbsp;
 [561. Array Partition I](src/main/java/org/example/g0501_0600/s0561_array_partition_i) &nbsp;&nbsp;
 [594. Longest Harmonious Subsequence](src/main/java/org/example/g0501_0600/s0594_longest_harmonious_subsequence) &nbsp;&nbsp;
+[628. Maximum Product Of Three Numbers](src/main/java/org/example/g0601_0700/s0628_maximum_product_of_three_numbers) &nbsp;&nbsp;
+[645. Set Mismatch](src/main/java/org/example/g0601_0700/s0645_set_mismatch) &nbsp;&nbsp;
 [2900. Longest Unequal Adjacent Groups Subsequence I](src/main/java/org/example/g2801_2900/p2900_longest_unequal_adjacent_groups_subsequence_i) &nbsp;&nbsp;
 <br><br>
 
-<b>Binary search</b> <br>
+<b>Binary search (#BinarySearch)</b> <br>
 Здесь помещаем задачи с бинарным поиском<br>
+Level Easy (#Easy)<br>
 [35. Search Insert Position](src/main/java/org/example/g0001_0100/s0035_search_insert_position) &nbsp;&nbsp;
 [69. Sqrtx](src/main/java/org/example/g0001_0100/s0069_sqrtx) &nbsp;&nbsp;
 [108. Convert Sorted Array To Binary Search Tree](src/main/java/org/example/g0101_0200/s0108_convert_sorted_array_to_binary_search_tree) &nbsp;&nbsp;
 [367. Valid Perfect Square](src/main/java/org/example/g0301_0400/s0367_valid_perfect_square) &nbsp;&nbsp;
 <br><br>
 
-<b>Bits</b> <br>
+<b>Bits (#Bits)</b> <br>
 Операции с битами <br>
+Level Easy (#Easy)<br>
 [67. Add Binary](src/main/java/org/example/g0001_0100/s0067_add_binary)
 [231. Power Of Two](src/main/java/org/example/g0201_0300/s0231_power_of_two) &nbsp;&nbsp;
 [268. Missing Number](src/main/java/org/example/g0201_0300/s0268_missing_number) &nbsp;&nbsp;
@@ -64,7 +69,7 @@ Harmonious Subsequence - Определим гармоничную подпос�
 [405. Convert A Number TO Hexadecimal](src/main/java/org/example/g0401_0500/s0405_convert_a_number_to_hexadecimal) &nbsp;&nbsp;
 <br><br>
 
-<b>Dynamic Programming</b> <br>
+<b>Dynamic Programming (#DP)</b> <br>
 Динамическое программирование (DP) — это метод решения задач, 
 которые можно разбить на похожие подзадачи. Идея в том, 
 чтобы не считать одну и ту же подзадачу несколько раз, 
@@ -75,6 +80,7 @@ Harmonious Subsequence - Определим гармоничную подпос�
 В Java обычно делают так: создают массив или таблицу для хранения результатов подзадач,
 заполняют этот массив постепенно, начиная с самых простых случаев, 
 используют сохранённые результаты для решения более сложных задач.<br>
+Level Easy (#Easy)<br>
 [70. Climbing Stairs](src/main/java/org/example/g0001_0100/s0070_climbing_stairs)  &nbsp;&nbsp;
 [292. Nim Game](src/main/java/org/example/g0201_0300/s0292_nim_game) &nbsp;&nbsp;
 [746. Min Cost Climbing Stairs](src/main/java/org/example/g0701_0800/s0746_min_cost_climbing_stairs) &nbsp;&nbsp;
@@ -82,35 +88,40 @@ Harmonious Subsequence - Определим гармоничную подпос�
 [1137. N th Tribonacci Number](src/main/java/org/example/g1101_1200/s1137_n_th_tribonacci_number) &nbsp;&nbsp;
 <br><br>
 
-<b>Greedy</b><br>
+<b>Greedy (#Greedy)</b><br>
 Задачи использующие "Жадный алгоритм"<br>
 Жадный алгоритм — это способ решения задач, где на каждом шаге выбирается 
 самый выгодный или лучший вариант в данный момент, не задумываясь о будущем. 
 Такой подход прост и часто эффективен, но не всегда гарантирует 
 оптимальное решение. Пример: выбор монет для сдачи, когда берём 
 сначала самые крупные монеты.
+<br>
+Level Easy (#Easy)<br>
 [455. Assign Cookies](src/main/java/org/example/g0401_0500/s0455_assign_cookies) &nbsp;&nbsp;
 [561. Array Partition I](src/main/java/org/example/g0501_0600/s0561_array_partition_i) &nbsp;&nbsp;
 <br><br>
 
-<b>Hash Table</b><br>
+<b>Hash Table (#HashMap)</b><br>
 В этом разделе находятся задачи, использующие для решения хеш таблицы, например HashMap, HashSet<br>
+Level Easy (#Easy)<br>
 [1. Two Sum](src/main/java/org/example/g0001_0100/s0001_two_sum) &nbsp;&nbsp;
 [205. Isomorphic Strings](src/main/java/org/example/g0201_0300/s0205_isomorphic_strings) &nbsp;&nbsp;
 [290. Word Pattern](src/main/java/org/example/g0201_0300/s0290_word_pattern) &nbsp;&nbsp;
 [349. Intersection Of Two Arrays](src/main/java/org/example/g0301_0400/s0349_intersection_of_two_arrays) &nbsp;&nbsp;
 [350. Intersection Of Two Arrays II](src/main/java/org/example/g0301_0400/s0350_intersection_of_two_arrays_ii) &nbsp;&nbsp;
 [594. Longest Harmonious Subsequence](src/main/java/org/example/g0501_0600/s0594_longest_harmonious_subsequence) &nbsp;&nbsp;
+[888. Fair Candy Swap](src/main/java/org/example/g0801_0900/s0888_fair_candy_swap)
 <br><br>
 
 <b>Linked List</b><br>
 Задачи, связанные со связанными списками<br>
 Примечания: алгоритм "Черепахи и Зайца" - Floyd's Cycle-Finding Algorithm<br>
+Level Easy (#Easy)<br>
 [141. Linked List Cycle](src/main/java/org/example/g0101_0200/s0141_linked_list_cycle) &nbsp;&nbsp;
 [160. Intersection Of Two Linked Lists](src/main/java/org/example/g0101_0200/s0160_intersection_of_two_linked_lists) &nbsp;&nbsp;
 <br><br>
 
-<b>Math</b><br>
+<b>Math (#Math)</b><br>
 Как правило это зачи с цифрами, числами, или использующие какие-то 
 математические свойства и особенности<br>
 Примечения: Палиндром - это число (или строка), которое читается одинаково 
@@ -120,6 +131,7 @@ Harmonious Subsequence - Определим гармоничную подпос�
 Полный квадрат — это целое число, которое является квадратом
 другого целого числа
 <br>
+Level Easy (#Easy)<br>
 [9. Palindrome number](src/main/java/org/example/g0001_0100/s0009_palindrome_number) &nbsp;&nbsp;
 [69. Sqrtx](src/main/java/org/example/g0001_0100/s0069_sqrtx) &nbsp;&nbsp;
 [118. Pascals Triangle](src/main/java/org/example/g0101_0200/s0118_pascals_triangle) &nbsp;&nbsp;
@@ -132,45 +144,53 @@ Harmonious Subsequence - Определим гармоничную подпос�
 [342. Power Of Four](src/main/java/org/example/g0301_0400/s0342_power_of_four) &nbsp;&nbsp;
 [367. Valid Perfect Square](src/main/java/org/example/g0301_0400/s0367_valid_perfect_square) &nbsp;&nbsp;
 [405. Convert A Number TO Hexadecimal](src/main/java/org/example/g0401_0500/s0405_convert_a_number_to_hexadecimal) &nbsp;&nbsp;
+[628. Maximum Product Of Three Numbers](src/main/java/org/example/g0601_0700/s0628_maximum_product_of_three_numbers) &nbsp;&nbsp;
+[645. Set Mismatch](src/main/java/org/example/g0601_0700/s0645_set_mismatch) &nbsp;&nbsp;
 [1025. Divisor game](src/main/java/org/example/g1001_1100/s1025_divisor_game) &nbsp;&nbsp;
 <br><br>
 
-<b>Pointers - Указатели</b><br>
+<b>Pointers (#Pointers) - указатели</b><br>
 Здесь показываем задачи, которые используют указатели для решения задач<br>
+Level Easy (#Easy)<br>
 [26. Remove Duplicates From Sorted Array](src/main/java/org/example/g0001_0100/s0026_remove_duplicates_from_sorted_array) &nbsp;&nbsp;
 [27. Remove Element](src/main/java/org/example/g0001_0100/s0027_remove_element) &nbsp;&nbsp;
 [125. Valid Palindrome](src/main/java/org/example/g0101_0200/s0125_valid_palindrome) &nbsp;&nbsp;
 [141. Linked List Cycle](src/main/java/org/example/g0101_0200/s0141_linked_list_cycle) &nbsp;&nbsp;
 [392. Is Subsequence](src/main/java/org/example/g0301_0400/s0392_is_subsequence) &nbsp;&nbsp;
 [455. Assign Cookies](src/main/java/org/example/g0401_0500/s0455_assign_cookies) &nbsp;&nbsp;
-
+[905. Sort Array By Parity](src/main/java/org/example/g0901_1000/s0905_sort_array_by_parity) &nbsp;&nbsp;
 <br><br>
 
-<b>Recursion - Рекурсия</b><br>
+<b>Recursion (#Recursion)- рекурсия</b><br>
 Сюда помещаем примеры задач, использующих рекурсию <br>
+Level Easy (#Easy)<br>
 [108. Convert Sorted Array To Binary Search Tree](src/main/java/org/example/g0101_0200/s0108_convert_sorted_array_to_binary_search_tree) &nbsp;&nbsp;
 [171. Excel Sheet Column Number](src/main/java/org/example/g0101_0200/s0171_excel_sheet_column_number) &nbsp;&nbsp;
 [509. Fibonacci Number](src/main/java/org/example/g0501_0600/s0509_fibonacci_number) &nbsp;&nbsp;
 [1137. N th Tribonacci Number](src/main/java/org/example/g1101_1200/s1137_n_th_tribonacci_number) &nbsp;&nbsp;
 <br><br>
 
-<b>Sort</b><br>
+<b>Sort (#Sort)</b><br>
 Задачи, использующие для решения сортировку<br>
+Level Easy (#Easy)<br>
 [252. Meeting Rooms](src/main/java/org/example/g0201_0300/s0252_meeting_rooms) &nbsp;&nbsp;
 [414. Third Maximum Number](src/main/java/org/example/g0401_0500/s0414_third_maximum_number) &nbsp;&nbsp;
 [455. Assign Cookies](src/main/java/org/example/g0401_0500/s0455_assign_cookies) &nbsp;&nbsp;
 [506. Relative Ranks](src/main/java/org/example/g0501_0600/s0506_relative_ranks) &nbsp;&nbsp;
 [561. Array Partition I](src/main/java/org/example/g0501_0600/s0561_array_partition_i) &nbsp;&nbsp;
 [594. Longest Harmonious Subsequence](src/main/java/org/example/g0501_0600/s0594_longest_harmonious_subsequence) &nbsp;&nbsp;
+[628. Maximum Product Of Three Numbers](src/main/java/org/example/g0601_0700/s0628_maximum_product_of_three_numbers) &nbsp;&nbsp;
+[905. Sort Array By Parity](src/main/java/org/example/g0901_1000/s0905_sort_array_by_parity) &nbsp;&nbsp;
 <br><br>
 
-<b>String</b><br>
+<b>String (#String)</b><br>
 В этом разделе находятся задачи, использующие строки<br>
 Примечания: Подпоследовательность (subsequence) - это последовательность символов,
 которая появляется в том же порядке, но не обязательно подряд.
 Две строки считаются изоморфными, если символы первой строки 
  могут быть заменены на символы второй строки с сохранением порядка.
 <br>
+Level Easy (#Easy)<br>
 [13. Roman To Integer](src/main/java/org/example/g0001_0100/s0013_roman_to_integer) &nbsp;&nbsp;
 [14. Longest Common Prefix](src/main/java/org/example/g0001_0100/s0014_longest_common_prefix) &nbsp;&nbsp;
 [20. Valid Parentheses](src/main/java/org/example/g0001_0100/s0020_valid_parentheses) &nbsp;&nbsp;
@@ -189,8 +209,9 @@ Harmonious Subsequence - Определим гармоничную подпос�
 [2900. Longest Unequal Adjacent Groups Subsequence I](src/main/java/org/example/g2801_2900/p2900_longest_unequal_adjacent_groups_subsequence_i) &nbsp;&nbsp;
 <br><br>
 
-<b>Tree</b><br>
+<b>Tree (#Tree)</b><br>
 Здесь помещаем задачи, которые используют деревья для решения<br>
+Level Easy (#Easy)<br>
 [108. Convert Sorted Array To Binary Search Tree](src/main/java/org/example/g0101_0200/s0108_convert_sorted_array_to_binary_search_tree) &nbsp;&nbsp;
 [506. Relative Ranks](src/main/java/org/example/g0501_0600/s0506_relative_ranks) &nbsp;&nbsp;
 <br><br>

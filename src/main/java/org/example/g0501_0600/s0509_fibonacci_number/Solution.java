@@ -1,7 +1,7 @@
 package org.example.g0501_0600.s0509_fibonacci_number;
 
 /** +
- * LeetCode Easy
+ * LeetCode #Easy #DP
  *
  * Как я понимаю это и есть классическая задача
  * на динамическое программирование - использование

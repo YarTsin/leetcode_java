@@ -1,7 +1,8 @@
 package org.example.g0001_0100.s0035_search_insert_position;
 
 /**
- * LeetCode #Easy #Array
+ * LeetCode #Easy #Array #BinarySearch
+ *
  * Вернуть  индекс целевого числа в отсортированном массиве, если значение найдено
  * или вернуть индекс где элемент должен был бы находиться
  *

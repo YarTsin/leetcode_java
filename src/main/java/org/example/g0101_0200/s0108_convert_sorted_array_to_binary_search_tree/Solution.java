@@ -1,7 +1,7 @@
 package org.example.g0101_0200.s0108_convert_sorted_array_to_binary_search_tree;
 
 /**
- * LeetCode #Easy #Binary #Tree #Recursion
+ * LeetCode #Easy #Recursion #BinarySearch
  * Условие:
  * Дан отсортированный массив nums в возрастающем порядке.
  * Необходимо преобразовать его в сбалансированное по высоте бинарное
