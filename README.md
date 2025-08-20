@@ -45,6 +45,7 @@ Level Easy (#Easy)<br>
 [594. Longest Harmonious Subsequence](src/main/java/org/example/g0501_0600/s0594_longest_harmonious_subsequence) &nbsp;&nbsp;
 [628. Maximum Product Of Three Numbers](src/main/java/org/example/g0601_0700/s0628_maximum_product_of_three_numbers) &nbsp;&nbsp;
 [645. Set Mismatch](src/main/java/org/example/g0601_0700/s0645_set_mismatch) &nbsp;&nbsp;
+[860. Lemonade Change](src/main/java/org/example/g0801_0900/s0860_lemonade_change) &nbsp;&nbsp;
 [2900. Longest Unequal Adjacent Groups Subsequence I](src/main/java/org/example/g2801_2900/p2900_longest_unequal_adjacent_groups_subsequence_i) &nbsp;&nbsp;
 <br><br>
 
@@ -99,6 +100,12 @@ Level Easy (#Easy)<br>
 Level Easy (#Easy)<br>
 [455. Assign Cookies](src/main/java/org/example/g0401_0500/s0455_assign_cookies) &nbsp;&nbsp;
 [561. Array Partition I](src/main/java/org/example/g0501_0600/s0561_array_partition_i) &nbsp;&nbsp;
+[605. Can Place Flowers](src/main/java/org/example/g0601_0700/s0605_can_place_flowers) &nbsp;&nbsp;
+[680. Valid Palindrome II](src/main/java/org/example/g0601_0700/s0680_valid_palindrome_ii) &nbsp;&nbsp;
+[860. Lemonade Change](src/main/java/org/example/g0801_0900/s0860_lemonade_change) &nbsp;&nbsp;
+[942. DI String Match](src/main/java/org/example/g0901_1000/s0942_di_string_match) &nbsp;&nbsp;
+[976. Largest Perimeter Triangle](src/main/java/org/example/g0901_1000/s0976_largest_perimeter_triangle) &nbsp;&nbsp;
+[1005. Maximize Sum Of Array After K Negations](src/main/java/org/example/g1001_1100/s1005_maximize_sum_of_array_after_k_negations) &nbsp;&nbsp;
 <br><br>
 
 <b>Hash Table (#HashMap)</b><br>
@@ -129,7 +136,8 @@ Level Easy (#Easy)<br>
 Цифровой корень числа — это однозначное число, которое получается путём 
 последовательного сложения всех цифр исходного числа, пока не останется одна цифра.
 Полный квадрат — это целое число, которое является квадратом
-другого целого числа
+другого целого числа. Треугольник существует если выполняется неравенство треугольника:
+сумма любых двух сторон должна быть больше третьей стороны.
 <br>
 Level Easy (#Easy)<br>
 [9. Palindrome number](src/main/java/org/example/g0001_0100/s0009_palindrome_number) &nbsp;&nbsp;
@@ -146,6 +154,8 @@ Level Easy (#Easy)<br>
 [405. Convert A Number TO Hexadecimal](src/main/java/org/example/g0401_0500/s0405_convert_a_number_to_hexadecimal) &nbsp;&nbsp;
 [628. Maximum Product Of Three Numbers](src/main/java/org/example/g0601_0700/s0628_maximum_product_of_three_numbers) &nbsp;&nbsp;
 [645. Set Mismatch](src/main/java/org/example/g0601_0700/s0645_set_mismatch) &nbsp;&nbsp;
+[942. DI String Match](src/main/java/org/example/g0901_1000/s0942_di_string_match) &nbsp;&nbsp;
+[976. Largest Perimeter Triangle](src/main/java/org/example/g0901_1000/s0976_largest_perimeter_triangle) &nbsp;&nbsp; 
 [1025. Divisor game](src/main/java/org/example/g1001_1100/s1025_divisor_game) &nbsp;&nbsp;
 <br><br>
 
@@ -158,15 +168,18 @@ Level Easy (#Easy)<br>
 [141. Linked List Cycle](src/main/java/org/example/g0101_0200/s0141_linked_list_cycle) &nbsp;&nbsp;
 [392. Is Subsequence](src/main/java/org/example/g0301_0400/s0392_is_subsequence) &nbsp;&nbsp;
 [455. Assign Cookies](src/main/java/org/example/g0401_0500/s0455_assign_cookies) &nbsp;&nbsp;
+[680. Valid Palindrome II](src/main/java/org/example/g0601_0700/s0680_valid_palindrome_ii) &nbsp;&nbsp;
 [905. Sort Array By Parity](src/main/java/org/example/g0901_1000/s0905_sort_array_by_parity) &nbsp;&nbsp;
+[942. DI String Match](src/main/java/org/example/g0901_1000/s0942_di_string_match) &nbsp;&nbsp;
 <br><br>
 
 <b>Recursion (#Recursion)- рекурсия</b><br>
-Сюда помещаем примеры задач, использующих рекурсию <br>
+Сюда помещаем примеры задач, которые могут использовать рекурсию в одном из решений <br>
 Level Easy (#Easy)<br>
 [108. Convert Sorted Array To Binary Search Tree](src/main/java/org/example/g0101_0200/s0108_convert_sorted_array_to_binary_search_tree) &nbsp;&nbsp;
 [171. Excel Sheet Column Number](src/main/java/org/example/g0101_0200/s0171_excel_sheet_column_number) &nbsp;&nbsp;
 [509. Fibonacci Number](src/main/java/org/example/g0501_0600/s0509_fibonacci_number) &nbsp;&nbsp;
+[680. Valid Palindrome II](src/main/java/org/example/g0601_0700/s0680_valid_palindrome_ii) &nbsp;&nbsp;
 [1137. N th Tribonacci Number](src/main/java/org/example/g1101_1200/s1137_n_th_tribonacci_number) &nbsp;&nbsp;
 <br><br>
 
@@ -181,6 +194,8 @@ Level Easy (#Easy)<br>
 [594. Longest Harmonious Subsequence](src/main/java/org/example/g0501_0600/s0594_longest_harmonious_subsequence) &nbsp;&nbsp;
 [628. Maximum Product Of Three Numbers](src/main/java/org/example/g0601_0700/s0628_maximum_product_of_three_numbers) &nbsp;&nbsp;
 [905. Sort Array By Parity](src/main/java/org/example/g0901_1000/s0905_sort_array_by_parity) &nbsp;&nbsp;
+[976. Largest Perimeter Triangle](src/main/java/org/example/g0901_1000/s0976_largest_perimeter_triangle) &nbsp;&nbsp;
+[1005. Maximize Sum Of Array After K Negations](src/main/java/org/example/g1001_1100/s1005_maximize_sum_of_array_after_k_negations) &nbsp;&nbsp;
 <br><br>
 
 <b>String (#String)</b><br>
@@ -205,6 +220,8 @@ Level Easy (#Easy)<br>
 [290. Word Pattern](src/main/java/org/example/g0201_0300/s0290_word_pattern) &nbsp;&nbsp;
 [389. Find The Difference](src/main/java/org/example/g0301_0400/s0389_find_the_difference) &nbsp;&nbsp;
 [392. Is Subsequence](src/main/java/org/example/g0301_0400/s0392_is_subsequence) &nbsp;&nbsp;
+[680. Valid Palindrome II](src/main/java/org/example/g0601_0700/s0680_valid_palindrome_ii) &nbsp;&nbsp;
+[942. DI String Match](src/main/java/org/example/g0901_1000/s0942_di_string_match) &nbsp;&nbsp;
 [1668. Maximum Repeating Substring](src/main/java/org/example/g1601_1700/s1668_maximum_repeating_substring) &nbsp;&nbsp;
 [2900. Longest Unequal Adjacent Groups Subsequence I](src/main/java/org/example/g2801_2900/p2900_longest_unequal_adjacent_groups_subsequence_i) &nbsp;&nbsp;
 <br><br>
