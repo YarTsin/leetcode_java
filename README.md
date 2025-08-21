@@ -106,6 +106,7 @@ Level Easy (#Easy)<br>
 [942. DI String Match](src/main/java/org/example/g0901_1000/s0942_di_string_match) &nbsp;&nbsp;
 [976. Largest Perimeter Triangle](src/main/java/org/example/g0901_1000/s0976_largest_perimeter_triangle) &nbsp;&nbsp;
 [1005. Maximize Sum Of Array After K Negations](src/main/java/org/example/g1001_1100/s1005_maximize_sum_of_array_after_k_negations) &nbsp;&nbsp;
+[1013. Partition Array Into Three Parts With Equal Sum](src/main/java/org/example/g1001_1100/s1013_partition_array_into_three_parts_with_equal_sum) &nbsp;&nbsp;
 <br><br>
 
 <b>Hash Table (#HashMap)</b><br>
