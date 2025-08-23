@@ -8,19 +8,19 @@
 #Easy, #Medium, #Array, #String и другие. 
 
 Ко многим задачам добавлены комментарии и пояснения для лучшего понимания.
-Также для многих задач приводятся альтернативные решения и другая справочная 
-информация. Подходит для начинающих.<br> 
+Также для многих задач приводятся альтернативные решения. 
+Подходит как учебное пособие для начинающих.<br> 
 Для работы используется Java 8<br>
 Желаю вам удачно пройти алгоритмическую секцию!<br><br>
 
  
 Жми ★ если понравилось.<br><br>
 
-Моя статистика: [https://leetcode.com/u/YarTsin/](https://leetcode.com/u/YarTsin/) <br>
+Моя статистика: [https://leetcode.com/u/YarTsin/](https://leetcode.com/u/YarTsin/) <br><br>
 
 
 <b>Array (#Array)</b> <br> 
-В этом разделе чаще всего находятся находятся задачи, использующие массивы <br>
+В этом разделе показываем часть задач, использующих массивы <br>
 Примечания: мажоритарный элемент - элемент, который встречается более n/2 раз.
 Harmonious Subsequence - Определим гармоничную подпоследовательность 
 как подпоследовательность массива, в которой разница между 
@@ -49,13 +49,71 @@ Level Easy (#Easy)<br>
 [2900. Longest Unequal Adjacent Groups Subsequence I](src/main/java/org/example/g2801_2900/p2900_longest_unequal_adjacent_groups_subsequence_i) &nbsp;&nbsp;
 <br><br>
 
+
 <b>Binary search (#BinarySearch)</b> <br>
-Здесь помещаем задачи с бинарным поиском<br>
+Здесь помещаем задачи с бинарным поиском. Binary Search (бинарный поиск) 
+— это алгоритм поиска элемента в отсортированном массиве, который делит область 
+поиска пополам на каждом шаге.<br>
 Level Easy (#Easy)<br>
 [35. Search Insert Position](src/main/java/org/example/g0001_0100/s0035_search_insert_position) &nbsp;&nbsp;
 [69. Sqrtx](src/main/java/org/example/g0001_0100/s0069_sqrtx) &nbsp;&nbsp;
 [108. Convert Sorted Array To Binary Search Tree](src/main/java/org/example/g0101_0200/s0108_convert_sorted_array_to_binary_search_tree) &nbsp;&nbsp;
 [367. Valid Perfect Square](src/main/java/org/example/g0301_0400/s0367_valid_perfect_square) &nbsp;&nbsp;
+<br><br>
+
+
+<b>Binary search tree (#BST)</b> <br>
+BST (Binary Search Tree) — это структура данных в виде бинарного дерева с упорядочиванием, 
+где для каждого узла значения в левом поддереве меньше значения узла, 
+а в правом поддереве — больше.<br>
+Level Easy (#Easy)<br>
+[108. Convert Sorted Array To Binary Search Tree](src/main/java/org/example/g0101_0200/s0108_convert_sorted_array_to_binary_search_tree) &nbsp;&nbsp;
+<br><br>
+
+<b>Binary tree (#BinaryTree)</b> <br>
+Бинарное дерево — это иерархическая структура данных, в которой каждый 
+узел (элемент) имеет не более двух потомков (детей). 
+
+<details>
+<summary>Информация по бинарным деревьям </summary>
+(эта информация поможет разобраться в типах задач по бинарным деревьям)<br>
+Этих потомков принято называть левым и правым ребенком. Ключевые компоненты:<br>
+~ Корень (Root): Самый верхний узел дерева, от которого всё начинается. 
+У корня нет родительского узла.<br>
+~ Узел (Node): Элемент дерева, который хранит какие-то данные (например, число) 
+и ссылки (указатели) на своих левого и правого потомков.<br>
+~ Лист (Leaf): Узел, у которого нет потомков (оба ребенка равны null).<br>
+Бинарные деревья — идеальный полигон для отработки понимания рекурсии и алгоритмов поиска в глубину (DFS) и поиска в ширину (BFS), 
+которые являются краеугольным камнем многих сложных задач.<br> 
+Основные типы бинарных деревьев: <br>
+~ полное бинарное дерево: Все уровни дерева, кроме, возможно, последнего, полностью заполнены, а узлы последнего уровня смещены влево.<br>
+~ сбалансированное бинарное дерево: Глубина левого и правого поддеревьев каждого узла 
+отличается не более чем на единицу. Это важно для эффективности операций. Пример — AVL-дерево. <br>
+~ идеальное бинарное дерево: Все внутренние узлы имеют двух детей, а все листья находятся на одном уровне.<br>
+~ Бинарное дерево поиска (BST) — очень важный вид деревьев. <br>
+Свойства: Для любого узла X: Все значения в левом поддереве X меньше значения самого X.
+Все значения в правом поддереве X больше значения самого X. Это свойство позволяет очень 
+эффективно (за время O(log n)) искать, добавлять и удалять элементы. 
+Множество задач построено вокруг BST. <br>
+
+<b>Базовые операции и обходы (Traversal)</b> <br>
+Умение обходить дерево — ключ к решению >90% задач. Есть два основных подхода. <br>
+Поиск в ширину (BFS - Breadth-First Search) - обход дерева уровень за уровнем. Реализуется с помощью очереди.
+Частный случай: Level Order Traversal — классическая задача (например, LeetCode 102).<br>
+Поиск в глубину (DFS - Depth-First Search)  - обход, при котором вы идете вглубь до самого конца, прежде чем вернуться. 
+Имеет три основных вида, которые отличаются порядком обработки узла: <br>
+~ Inorder (Лево -> Корень -> Право): Для BST обход дает отсортированную 
+последовательность. Классическая задача: LeetCode 94.<br>
+~ Preorder (Корень -> Лево -> Право): Полезно для копирования структуры дерева. 
+Классическая задача: LeetCode 144. <br>
+~ Postorder (Лево -> Право -> Корень): Полезно для удаления дерева, так как 
+вы сначала работаете с детьми. Классическая задача: LeetCode 145.
+</details>
+
+Level Easy (#Easy)<br>
+[94. Binary Tree Inorder Traversal](src/main/java/org/example/g0001_0100/s0094_binary_tree_inorder_traversal) &nbsp;&nbsp;
+[108. Convert Sorted Array To Binary Search Tree](src/main/java/org/example/g0101_0200/s0108_convert_sorted_array_to_binary_search_tree) &nbsp;&nbsp;
+[257. Binary Tree Paths](src/main/java/org/example/g0201_0300/s0257_binary_tree_paths)
 <br><br>
 
 <b>Bits (#Bits)</b> <br>
@@ -69,6 +127,21 @@ Level Easy (#Easy)<br>
 [389. Find The Difference](src/main/java/org/example/g0301_0400/s0389_find_the_difference) &nbsp;&nbsp;
 [405. Convert A Number TO Hexadecimal](src/main/java/org/example/g0401_0500/s0405_convert_a_number_to_hexadecimal) &nbsp;&nbsp;
 <br><br>
+
+
+<b>Depth-First Search (#DFS)</b><br>
+Раздел посвящён задачам, которые можно решать с помощью алгоритма поиска в глубину.
+DFS (поиск в глубину) — это один из базовых алгоритмов обхода или поиска в графах 
+и деревьях. Идея заключается в том, что мы начинаем с корня (или с какой-то начальной вершины) 
+и исследуем как можно глубже каждую ветвь перед тем, как перейти к следующей.<br>
+Примечания: Граф — это множество вершин (узлов), связанных рёбрами (связями). 
+Рёбра могут быть направленными или ненаправленными, граф может содержать циклы.
+Дерево — это частный случай графа: связный ацикличный граф, где между любой парой 
+вершин существует ровно один путь. Дерево обычно имеет один корень.<br>
+Level Easy (#Easy)<br>
+[94. Binary Tree Inorder Traversal](src/main/java/org/example/g0001_0100/s0094_binary_tree_inorder_traversal) &nbsp;&nbsp;
+[257. Binary Tree Paths](src/main/java/org/example/g0201_0300/s0257_binary_tree_paths)
+
 
 <b>Dynamic Programming (#DP)</b> <br>
 Динамическое программирование (DP) — это метод решения задач, 
@@ -89,6 +162,7 @@ Level Easy (#Easy)<br>
 [1137. N th Tribonacci Number](src/main/java/org/example/g1101_1200/s1137_n_th_tribonacci_number) &nbsp;&nbsp;
 <br><br>
 
+
 <b>Greedy (#Greedy)</b><br>
 Задачи использующие "Жадный алгоритм"<br>
 Жадный алгоритм — это способ решения задач, где на каждом шаге выбирается 
@@ -107,10 +181,13 @@ Level Easy (#Easy)<br>
 [976. Largest Perimeter Triangle](src/main/java/org/example/g0901_1000/s0976_largest_perimeter_triangle) &nbsp;&nbsp;
 [1005. Maximize Sum Of Array After K Negations](src/main/java/org/example/g1001_1100/s1005_maximize_sum_of_array_after_k_negations) &nbsp;&nbsp;
 [1013. Partition Array Into Three Parts With Equal Sum](src/main/java/org/example/g1001_1100/s1013_partition_array_into_three_parts_with_equal_sum) &nbsp;&nbsp;
+[1217. Minimum Cost To Move Chips To The Same Position](src/main/java/org/example/g1201_1300/s1217_minimum_cost_to_move_chips_to_the_same_position) &nbsp;&nbsp;
 <br><br>
 
+
 <b>Hash Table (#HashMap)</b><br>
-В этом разделе находятся задачи, использующие для решения хеш таблицы, например HashMap, HashSet<br>
+В этом разделе находятся задачи, использующие для решения хеш таблицы, 
+например HashMap, HashSet<br>
 Level Easy (#Easy)<br>
 [1. Two Sum](src/main/java/org/example/g0001_0100/s0001_two_sum) &nbsp;&nbsp;
 [205. Isomorphic Strings](src/main/java/org/example/g0201_0300/s0205_isomorphic_strings) &nbsp;&nbsp;
@@ -121,13 +198,18 @@ Level Easy (#Easy)<br>
 [888. Fair Candy Swap](src/main/java/org/example/g0801_0900/s0888_fair_candy_swap)
 <br><br>
 
+
 <b>Linked List</b><br>
 Задачи, связанные со связанными списками<br>
-Примечания: алгоритм "Черепахи и Зайца" - Floyd's Cycle-Finding Algorithm<br>
+Примечания. <br>
+Можно сказать, что хорошее знание Linked List (связанных списков) 
+полезно для изучения более сложной темы - разного рода деревьев.<br>
+Алгоритм "Черепахи и Зайца" - Floyd's Cycle-Finding Algorithm<br>
 Level Easy (#Easy)<br>
 [141. Linked List Cycle](src/main/java/org/example/g0101_0200/s0141_linked_list_cycle) &nbsp;&nbsp;
 [160. Intersection Of Two Linked Lists](src/main/java/org/example/g0101_0200/s0160_intersection_of_two_linked_lists) &nbsp;&nbsp;
 <br><br>
+
 
 <b>Math (#Math)</b><br>
 Как правило это зачи с цифрами, числами, или использующие какие-то 
@@ -156,9 +238,11 @@ Level Easy (#Easy)<br>
 [628. Maximum Product Of Three Numbers](src/main/java/org/example/g0601_0700/s0628_maximum_product_of_three_numbers) &nbsp;&nbsp;
 [645. Set Mismatch](src/main/java/org/example/g0601_0700/s0645_set_mismatch) &nbsp;&nbsp;
 [942. DI String Match](src/main/java/org/example/g0901_1000/s0942_di_string_match) &nbsp;&nbsp;
-[976. Largest Perimeter Triangle](src/main/java/org/example/g0901_1000/s0976_largest_perimeter_triangle) &nbsp;&nbsp; 
+[976. Largest Perimeter Triangle](src/main/java/org/example/g0901_1000/s0976_largest_perimeter_triangle) &nbsp;&nbsp;
+[1217. Minimum Cost To Move Chips To The Same Position](src/main/java/org/example/g1201_1300/s1217_minimum_cost_to_move_chips_to_the_same_position) &nbsp;&nbsp;
 [1025. Divisor game](src/main/java/org/example/g1001_1100/s1025_divisor_game) &nbsp;&nbsp;
 <br><br>
+
 
 <b>Pointers (#Pointers) - указатели</b><br>
 Здесь показываем задачи, которые используют указатели для решения задач<br>
@@ -174,15 +258,18 @@ Level Easy (#Easy)<br>
 [942. DI String Match](src/main/java/org/example/g0901_1000/s0942_di_string_match) &nbsp;&nbsp;
 <br><br>
 
+
 <b>Recursion (#Recursion)- рекурсия</b><br>
 Сюда помещаем примеры задач, которые могут использовать рекурсию в одном из решений <br>
 Level Easy (#Easy)<br>
+[94. Binary Tree Inorder Traversal](src/main/java/org/example/g0001_0100/s0094_binary_tree_inorder_traversal) &nbsp;&nbsp;
 [108. Convert Sorted Array To Binary Search Tree](src/main/java/org/example/g0101_0200/s0108_convert_sorted_array_to_binary_search_tree) &nbsp;&nbsp;
 [171. Excel Sheet Column Number](src/main/java/org/example/g0101_0200/s0171_excel_sheet_column_number) &nbsp;&nbsp;
 [509. Fibonacci Number](src/main/java/org/example/g0501_0600/s0509_fibonacci_number) &nbsp;&nbsp;
 [680. Valid Palindrome II](src/main/java/org/example/g0601_0700/s0680_valid_palindrome_ii) &nbsp;&nbsp;
 [1137. N th Tribonacci Number](src/main/java/org/example/g1101_1200/s1137_n_th_tribonacci_number) &nbsp;&nbsp;
 <br><br>
+
 
 <b>Sort (#Sort)</b><br>
 Задачи, использующие для решения сортировку<br>
@@ -199,8 +286,9 @@ Level Easy (#Easy)<br>
 [1005. Maximize Sum Of Array After K Negations](src/main/java/org/example/g1001_1100/s1005_maximize_sum_of_array_after_k_negations) &nbsp;&nbsp;
 <br><br>
 
+
 <b>String (#String)</b><br>
-В этом разделе находятся задачи, использующие строки<br>
+В этом разделе находятся некоторые задачи, использующие строки<br>
 Примечания: Подпоследовательность (subsequence) - это последовательность символов,
 которая появляется в том же порядке, но не обязательно подряд.
 Две строки считаются изоморфными, если символы первой строки 
@@ -227,9 +315,17 @@ Level Easy (#Easy)<br>
 [2900. Longest Unequal Adjacent Groups Subsequence I](src/main/java/org/example/g2801_2900/p2900_longest_unequal_adjacent_groups_subsequence_i) &nbsp;&nbsp;
 <br><br>
 
+
 <b>Tree (#Tree)</b><br>
-Здесь помещаем задачи, которые используют деревья для решения<br>
+Здесь помещаем задачи, которые используют для решения различнные виды деревьев<br>
+Примечания: Что такое Backtracking. Backtracking (возврат/откат) - это техника 
+в программировании, когда мы: Делаем шаг вперед (добавляем элемент), 
+Пробуем все возможные варианты продолжения, Возвращаемся назад (убираем последний элемент)
+Пробуем другие варианты. Представьте, что вы идете по лабиринту: Идете по коридору 
+(добавляете в путь) Если тупик - возвращаетесь назад (убираете из пути) Пробуете другой коридор<br>
 Level Easy (#Easy)<br>
+[94. Binary Tree Inorder Traversal](src/main/java/org/example/g0001_0100/s0094_binary_tree_inorder_traversal) &nbsp;&nbsp;
 [108. Convert Sorted Array To Binary Search Tree](src/main/java/org/example/g0101_0200/s0108_convert_sorted_array_to_binary_search_tree) &nbsp;&nbsp;
+[257. Binary Tree Paths](src/main/java/org/example/g0201_0300/s0257_binary_tree_paths) &nbsp;&nbsp;
 [506. Relative Ranks](src/main/java/org/example/g0501_0600/s0506_relative_ranks) &nbsp;&nbsp;
 <br><br>
