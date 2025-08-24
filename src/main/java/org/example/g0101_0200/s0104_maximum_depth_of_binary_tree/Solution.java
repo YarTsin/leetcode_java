@@ -1,0 +1,46 @@
+package org.example.g0101_0200.s0104_maximum_depth_of_binary_tree;
+
+/**
+ * #Easy #DFS #BFS #Tree #BinaryTree #Recursion
+ * Дано бинарное дерево. Необходимо найти его максимальную глубину.
+ * Примеры внизу
+ *
+ * Оптимальное решение - рекурсивное DFS
+ * Самое быстрое решение - 0 ms
+ */
+class Solution {
+    public int maxDepth(TreeNode root) {
+        // Базовый случай: пустое дерево имеет глубину 0
+        if (root == null) {
+            return 0;
+        }
+
+        // Рекурсивно находим глубину левого и правого поддеревьев
+        int leftDepth = maxDepth(root.left);
+        int rightDepth = maxDepth(root.right);
+
+        // Максимальная глубина = 1 (текущий узел) + максимальная из глубин поддеревьев
+        return 1 + Math.max(leftDepth, rightDepth);
+    }
+}
+
+/*
+Пример 1
+Вход:
+    3
+   / \
+  9  20
+    /  \
+   15   7
+
+Выход: 3
+
+Пример 2
+Вход:
+    1
+     \
+      2
+
+Выход: 2
+
+ */

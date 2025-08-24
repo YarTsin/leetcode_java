@@ -49,8 +49,28 @@ Level Easy (#Easy)<br>
 [2900. Longest Unequal Adjacent Groups Subsequence I](src/main/java/org/example/g2801_2900/p2900_longest_unequal_adjacent_groups_subsequence_i) &nbsp;&nbsp;
 <br><br>
 
+<b>Breadth-First Search (#BFS)</b>
+Breadth First Search (BFS) — это алгоритм обхода или поиска в графе 
+или дереве в ширину, который изучает все узлы на одном уровне перед 
+переходом к следующему уровню. Проще говоря, он сначала посещает 
+всех соседей начальной точки, потом их соседей и так далее, 
+двигаясь "по ширине". Это, например, помогает найти кратчайший путь  
+в невзвешенных графах.<br>
+Примечание: Невзвешенный граф — это граф, в котором ребрам 
+не присвоены какие-либо числовые значения (веса). То есть все ребра 
+считаются равнозначными, без указания стоимости, длины или другого 
+параметра. В таком графе при поиске пути или обходе обычно учитывается 
+только количество ребер, а не их "вес". Например, если ребро соединяет 
+две вершины, то переход по нему считается одинаково "дорогим" для всех ребер.
+Level Easy (#Easy)<br>
+[100. Same Tree](src/main/java/org/example/g0001_0100/s0100_same_tree) &nbsp;&nbsp;
+[101. Symmetric Tree](src/main/java/org/example/g0101_0200/s0101_symmetric_tree) &nbsp;&nbsp;
+[104. Maximum Depth Of Binary Tree](src/main/java/org/example/g0101_0200/s0104_maximum_depth_of_binary_tree) &nbsp;&nbsp;
+<br><br>
 
-<b>Binary search (#BinarySearch)</b> <br>
+
+
+<b>Binary Search (#BinarySearch)</b> <br>
 Здесь помещаем задачи с бинарным поиском. Binary Search (бинарный поиск) 
 — это алгоритм поиска элемента в отсортированном массиве, который делит область 
 поиска пополам на каждом шаге.<br>
@@ -62,7 +82,7 @@ Level Easy (#Easy)<br>
 <br><br>
 
 
-<b>Binary search tree (#BST)</b> <br>
+<b>Binary Search Tree (#BST)</b> <br>
 BST (Binary Search Tree) — это структура данных в виде бинарного дерева с упорядочиванием, 
 где для каждого узла значения в левом поддереве меньше значения узла, 
 а в правом поддереве — больше.<br>
@@ -70,7 +90,7 @@ Level Easy (#Easy)<br>
 [108. Convert Sorted Array To Binary Search Tree](src/main/java/org/example/g0101_0200/s0108_convert_sorted_array_to_binary_search_tree) &nbsp;&nbsp;
 <br><br>
 
-<b>Binary tree (#BinaryTree)</b> <br>
+<b>Binary Tree (#BinaryTree)</b> <br>
 Бинарное дерево — это иерархическая структура данных, в которой каждый 
 узел (элемент) имеет не более двух потомков (детей). 
 
@@ -112,7 +132,11 @@ Level Easy (#Easy)<br>
 
 Level Easy (#Easy)<br>
 [94. Binary Tree Inorder Traversal](src/main/java/org/example/g0001_0100/s0094_binary_tree_inorder_traversal) &nbsp;&nbsp;
+[100. Same Tree](src/main/java/org/example/g0001_0100/s0100_same_tree) &nbsp;&nbsp;
+[101. Symmetric Tree](src/main/java/org/example/g0101_0200/s0101_symmetric_tree) &nbsp;&nbsp;
+[104. Maximum Depth Of Binary Tree](src/main/java/org/example/g0101_0200/s0104_maximum_depth_of_binary_tree) &nbsp;&nbsp;
 [108. Convert Sorted Array To Binary Search Tree](src/main/java/org/example/g0101_0200/s0108_convert_sorted_array_to_binary_search_tree) &nbsp;&nbsp;
+[110. Balanced Binary Tree](src/main/java/org/example/g0101_0200/s0110_balanced_binary_tree) &nbsp;&nbsp;
 [257. Binary Tree Paths](src/main/java/org/example/g0201_0300/s0257_binary_tree_paths)
 <br><br>
 
@@ -134,13 +158,21 @@ Level Easy (#Easy)<br>
 DFS (поиск в глубину) — это один из базовых алгоритмов обхода или поиска в графах 
 и деревьях. Идея заключается в том, что мы начинаем с корня (или с какой-то начальной вершины) 
 и исследуем как можно глубже каждую ветвь перед тем, как перейти к следующей.<br>
-Примечания: Граф — это множество вершин (узлов), связанных рёбрами (связями). 
-Рёбра могут быть направленными или ненаправленными, граф может содержать циклы.
+Примечания: <br>
+Граф — это множество вершин (узлов), связанных рёбрами (связями). 
+Рёбра могут быть направленными или ненаправленными, граф может содержать циклы.<br>
 Дерево — это частный случай графа: связный ацикличный граф, где между любой парой 
 вершин существует ровно один путь. Дерево обычно имеет один корень.<br>
+Максимальная глубина бинарного дерева - это количество узлов вдоль самого 
+длинного пути от корневого узла до самого дальнего листового узла.<br>
 Level Easy (#Easy)<br>
 [94. Binary Tree Inorder Traversal](src/main/java/org/example/g0001_0100/s0094_binary_tree_inorder_traversal) &nbsp;&nbsp;
+[100. Same Tree](src/main/java/org/example/g0001_0100/s0100_same_tree) &nbsp;&nbsp;
+[101. Symmetric Tree](src/main/java/org/example/g0101_0200/s0101_symmetric_tree) &nbsp;&nbsp;
+[104. Maximum Depth Of Binary Tree](src/main/java/org/example/g0101_0200/s0104_maximum_depth_of_binary_tree) &nbsp;&nbsp;
+[110. Balanced Binary Tree](src/main/java/org/example/g0101_0200/s0110_balanced_binary_tree) &nbsp;&nbsp;
 [257. Binary Tree Paths](src/main/java/org/example/g0201_0300/s0257_binary_tree_paths)
+<br><br>
 
 
 <b>Dynamic Programming (#DP)</b> <br>
@@ -263,7 +295,11 @@ Level Easy (#Easy)<br>
 Сюда помещаем примеры задач, которые могут использовать рекурсию в одном из решений <br>
 Level Easy (#Easy)<br>
 [94. Binary Tree Inorder Traversal](src/main/java/org/example/g0001_0100/s0094_binary_tree_inorder_traversal) &nbsp;&nbsp;
+[100. Same Tree](src/main/java/org/example/g0001_0100/s0100_same_tree) &nbsp;&nbsp;
+[101. Symmetric Tree](src/main/java/org/example/g0101_0200/s0101_symmetric_tree) &nbsp;&nbsp;
+[104. Maximum Depth Of Binary Tree](src/main/java/org/example/g0101_0200/s0104_maximum_depth_of_binary_tree) &nbsp;&nbsp;
 [108. Convert Sorted Array To Binary Search Tree](src/main/java/org/example/g0101_0200/s0108_convert_sorted_array_to_binary_search_tree) &nbsp;&nbsp;
+[110. Balanced Binary Tree](src/main/java/org/example/g0101_0200/s0110_balanced_binary_tree) &nbsp;&nbsp;
 [171. Excel Sheet Column Number](src/main/java/org/example/g0101_0200/s0171_excel_sheet_column_number) &nbsp;&nbsp;
 [509. Fibonacci Number](src/main/java/org/example/g0501_0600/s0509_fibonacci_number) &nbsp;&nbsp;
 [680. Valid Palindrome II](src/main/java/org/example/g0601_0700/s0680_valid_palindrome_ii) &nbsp;&nbsp;
@@ -325,7 +361,11 @@ Level Easy (#Easy)<br>
 (добавляете в путь) Если тупик - возвращаетесь назад (убираете из пути) Пробуете другой коридор<br>
 Level Easy (#Easy)<br>
 [94. Binary Tree Inorder Traversal](src/main/java/org/example/g0001_0100/s0094_binary_tree_inorder_traversal) &nbsp;&nbsp;
+[100. Same Tree](src/main/java/org/example/g0001_0100/s0100_same_tree) &nbsp;&nbsp;
+[101. Symmetric Tree](src/main/java/org/example/g0101_0200/s0101_symmetric_tree) &nbsp;&nbsp;
+[104. Maximum Depth Of Binary Tree](src/main/java/org/example/g0101_0200/s0104_maximum_depth_of_binary_tree)&nbsp;&nbsp;
 [108. Convert Sorted Array To Binary Search Tree](src/main/java/org/example/g0101_0200/s0108_convert_sorted_array_to_binary_search_tree) &nbsp;&nbsp;
+[110. Balanced Binary Tree](src/main/java/org/example/g0101_0200/s0110_balanced_binary_tree) &nbsp;&nbsp;
 [257. Binary Tree Paths](src/main/java/org/example/g0201_0300/s0257_binary_tree_paths) &nbsp;&nbsp;
 [506. Relative Ranks](src/main/java/org/example/g0501_0600/s0506_relative_ranks) &nbsp;&nbsp;
 <br><br>
