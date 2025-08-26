@@ -9,7 +9,12 @@
 
 Ко многим задачам добавлены комментарии и пояснения для лучшего понимания.
 Также для многих задач приводятся альтернативные решения. 
-Подходит как учебное пособие для начинающих.<br> 
+Подходит как учебное пособие для начинающих.<br>
+Как учить алгоритмы - практическими повторениями. Выбираете тему, 
+переписывайте 10-20 задач из неё, пока в общих чертах не поймете 
+как это решается, потом пытаетесь воссоздать решения самостоятельно, 
+пока не перестанете подглядывать решение)).
+
 Для работы используется Java 8<br>
 Желаю вам удачно пройти алгоритмическую секцию!<br><br>
 
@@ -40,6 +45,7 @@ Level Easy (#Easy)<br>
 [350. Intersection Of Two Arrays II](src/main/java/org/example/g0301_0400/s0350_intersection_of_two_arrays_ii) &nbsp;&nbsp;
 [414. Third Maximum Number](src/main/java/org/example/g0401_0500/s0414_third_maximum_number) &nbsp;&nbsp;
 [455. Assign Cookies](src/main/java/org/example/g0401_0500/s0455_assign_cookies) &nbsp;&nbsp;
+[463. Island Perimeter](src/main/java/org/example/g0401_0500/s0463_island_perimeter) &nbsp;&nbsp;
 [506. Relative Ranks](src/main/java/org/example/g0501_0600/s0506_relative_ranks) &nbsp;&nbsp;
 [561. Array Partition I](src/main/java/org/example/g0501_0600/s0561_array_partition_i) &nbsp;&nbsp;
 [594. Longest Harmonious Subsequence](src/main/java/org/example/g0501_0600/s0594_longest_harmonious_subsequence) &nbsp;&nbsp;
@@ -49,14 +55,15 @@ Level Easy (#Easy)<br>
 [2900. Longest Unequal Adjacent Groups Subsequence I](src/main/java/org/example/g2801_2900/p2900_longest_unequal_adjacent_groups_subsequence_i) &nbsp;&nbsp;
 <br><br>
 
-<b>Breadth-First Search (#BFS)</b>
+<b>Breadth-First Search (#BFS)</b><br>
 Breadth First Search (BFS) — это алгоритм обхода или поиска в графе 
 или дереве в ширину, который изучает все узлы на одном уровне перед 
 переходом к следующему уровню. Проще говоря, он сначала посещает 
 всех соседей начальной точки, потом их соседей и так далее, 
-двигаясь "по ширине". Это, например, помогает найти кратчайший путь  
+двигаясь "по ширине". Это, например, помогает найти кратчайший путь 
 в невзвешенных графах.<br>
-Примечание: Невзвешенный граф — это граф, в котором ребрам 
+Примечания. <br>
+Невзвешенный граф — это граф, в котором ребрам 
 не присвоены какие-либо числовые значения (веса). То есть все ребра 
 считаются равнозначными, без указания стоимости, длины или другого 
 параметра. В таком графе при поиске пути или обходе обычно учитывается 
@@ -66,8 +73,10 @@ Level Easy (#Easy)<br>
 [100. Same Tree](src/main/java/org/example/g0001_0100/s0100_same_tree) &nbsp;&nbsp;
 [101. Symmetric Tree](src/main/java/org/example/g0101_0200/s0101_symmetric_tree) &nbsp;&nbsp;
 [104. Maximum Depth Of Binary Tree](src/main/java/org/example/g0101_0200/s0104_maximum_depth_of_binary_tree) &nbsp;&nbsp;
+[112. Path Sum](src/main/java/org/example/g0101_0200/s0112_path_sum) &nbsp;&nbsp;
+[226. Invert Binary Tree](src/main/java/org/example/g0201_0300/s0226_invert_binary_tree) &nbsp;&nbsp;
+[404. Sum Of Left Leaves](src/main/java/org/example/g0401_0500/s0404_sum_of_left_leaves) &nbsp;&nbsp;
 <br><br>
-
 
 
 <b>Binary Search (#BinarySearch)</b> <br>
@@ -78,6 +87,7 @@ Level Easy (#Easy)<br>
 [35. Search Insert Position](src/main/java/org/example/g0001_0100/s0035_search_insert_position) &nbsp;&nbsp;
 [69. Sqrtx](src/main/java/org/example/g0001_0100/s0069_sqrtx) &nbsp;&nbsp;
 [108. Convert Sorted Array To Binary Search Tree](src/main/java/org/example/g0101_0200/s0108_convert_sorted_array_to_binary_search_tree) &nbsp;&nbsp;
+[222. Count Complete Tree Nodes](src/main/java/org/example/g0201_0300/s0222_count_complete_tree_nodes) &nbsp;&nbsp;
 [367. Valid Perfect Square](src/main/java/org/example/g0301_0400/s0367_valid_perfect_square) &nbsp;&nbsp;
 <br><br>
 
@@ -127,7 +137,10 @@ Level Easy (#Easy)<br>
 ~ Preorder (Корень -> Лево -> Право): Полезно для копирования структуры дерева. 
 Классическая задача: LeetCode 144. <br>
 ~ Postorder (Лево -> Право -> Корень): Полезно для удаления дерева, так как 
-вы сначала работаете с детьми. Классическая задача: LeetCode 145.
+вы сначала работаете с детьми. Классическая задача: LeetCode 145. <br>
+Morris Traversal (#MorrisTraversal) - это алгоритм обхода бинарного дерева, который позволяет
+обойти дерево in-order, pre-order или post-order без использования
+стека или рекурсии, с постоянной (O(1)) дополнительной памятью.
 </details>
 
 Level Easy (#Easy)<br>
@@ -137,7 +150,13 @@ Level Easy (#Easy)<br>
 [104. Maximum Depth Of Binary Tree](src/main/java/org/example/g0101_0200/s0104_maximum_depth_of_binary_tree) &nbsp;&nbsp;
 [108. Convert Sorted Array To Binary Search Tree](src/main/java/org/example/g0101_0200/s0108_convert_sorted_array_to_binary_search_tree) &nbsp;&nbsp;
 [110. Balanced Binary Tree](src/main/java/org/example/g0101_0200/s0110_balanced_binary_tree) &nbsp;&nbsp;
-[257. Binary Tree Paths](src/main/java/org/example/g0201_0300/s0257_binary_tree_paths)
+[112. Path Sum](src/main/java/org/example/g0101_0200/s0112_path_sum) &nbsp;&nbsp;
+[144. Binary Tree Preorder Traversal](src/main/java/org/example/g0101_0200/s0144_binary_tree_preorder_traversal) &nbsp;&nbsp;
+[145. Binary Tree Postorder Traversal](src/main/java/org/example/g0101_0200/s0145_binary_tree_postorder_traversal) &nbsp;&nbsp;
+[222. Count Complete Tree Nodes](src/main/java/org/example/g0201_0300/s0222_count_complete_tree_nodes) &nbsp;&nbsp;
+[226. Invert Binary Tree](src/main/java/org/example/g0201_0300/s0226_invert_binary_tree) &nbsp;&nbsp;
+[404. Sum Of Left Leaves](src/main/java/org/example/g0401_0500/s0404_sum_of_left_leaves) &nbsp;&nbsp;
+[257. Binary Tree Paths](src/main/java/org/example/g0201_0300/s0257_binary_tree_paths) &nbsp;&nbsp;
 <br><br>
 
 <b>Bits (#Bits)</b> <br>
@@ -152,6 +171,24 @@ Level Easy (#Easy)<br>
 [405. Convert A Number TO Hexadecimal](src/main/java/org/example/g0401_0500/s0405_convert_a_number_to_hexadecimal) &nbsp;&nbsp;
 <br><br>
 
+<b>Clever Algorithms</b> - это интересно <br>
+<details>
+<summary>Информация о Clever Algorithms</summary>
+Clever Algorithms - это алгоритмы, которые используют нетривиальные, 
+innovative или особенно elegant подходы для решения задач, 
+часто достигая лучшей производительности или используя меньше ресурсов, 
+чем очевидные решения. <br>
+Характеристики Clever Algorithms<br>
+~ Неочевидность - решение не сразу приходит в голову.<br>
+Пример: Morris Traversal - идея использовать временные связи вместо стека.<br>
+~ Эффективность - часто имеют лучшую временную или пространственную сложность.<br>
+Пример: Быстрая сортировка (QuickSort) vs Пузырьковая сортировка.<br>
+~ Минимальное использование ресурсов. Используют меньше памяти или вычислений.<br>
+Пример: Алгоритм Флойда для нахождения цикла в связном списке с O(1) памятью.<br>
+Примеры Clever Algorithms <br>
+Morris Traversal, Boyer-Moore Majority Vote Algorithm,  Floyd's Cycle Detection (Черепаха и заяц),
+Kadane's Algorithm.
+</details><br>
 
 <b>Depth-First Search (#DFS)</b><br>
 Раздел посвящён задачам, которые можно решать с помощью алгоритма поиска в глубину.
@@ -171,7 +208,15 @@ Level Easy (#Easy)<br>
 [101. Symmetric Tree](src/main/java/org/example/g0101_0200/s0101_symmetric_tree) &nbsp;&nbsp;
 [104. Maximum Depth Of Binary Tree](src/main/java/org/example/g0101_0200/s0104_maximum_depth_of_binary_tree) &nbsp;&nbsp;
 [110. Balanced Binary Tree](src/main/java/org/example/g0101_0200/s0110_balanced_binary_tree) &nbsp;&nbsp;
-[257. Binary Tree Paths](src/main/java/org/example/g0201_0300/s0257_binary_tree_paths)
+[112. Path Sum](src/main/java/org/example/g0101_0200/s0112_path_sum) &nbsp;&nbsp;
+[144. Binary Tree Preorder Traversal](src/main/java/org/example/g0101_0200/s0144_binary_tree_preorder_traversal) &nbsp;&nbsp;
+[145. Binary Tree Postorder Traversal](src/main/java/org/example/g0101_0200/s0145_binary_tree_postorder_traversal) &nbsp;&nbsp;
+[222. Count Complete Tree Nodes](src/main/java/org/example/g0201_0300/s0222_count_complete_tree_nodes) &nbsp;&nbsp;
+[226. Invert Binary Tree](src/main/java/org/example/g0201_0300/s0226_invert_binary_tree) &nbsp;&nbsp;
+[257. Binary Tree Paths](src/main/java/org/example/g0201_0300/s0257_binary_tree_paths) &nbsp;&nbsp;
+[404. Sum Of Left Leaves](src/main/java/org/example/g0401_0500/s0404_sum_of_left_leaves) &nbsp;&nbsp;
+[463. Island Perimeter](src/main/java/org/example/g0401_0500/s0463_island_perimeter) &nbsp;&nbsp;
+
 <br><br>
 
 
@@ -231,8 +276,9 @@ Level Easy (#Easy)<br>
 <br><br>
 
 
-<b>Linked List</b><br>
-Задачи, связанные со связанными списками<br>
+<b>Linked List (#LinkedList)</b><br>
+Задачи, связанные со связанными списками или использующие связанные списки 
+в качестве решения<br>
 Примечания. <br>
 Можно сказать, что хорошее знание Linked List (связанных списков) 
 полезно для изучения более сложной темы - разного рода деревьев.<br>
@@ -240,6 +286,7 @@ Level Easy (#Easy)<br>
 Level Easy (#Easy)<br>
 [141. Linked List Cycle](src/main/java/org/example/g0101_0200/s0141_linked_list_cycle) &nbsp;&nbsp;
 [160. Intersection Of Two Linked Lists](src/main/java/org/example/g0101_0200/s0160_intersection_of_two_linked_lists) &nbsp;&nbsp;
+[226. Invert Binary Tree](src/main/java/org/example/g0201_0300/s0226_invert_binary_tree) &nbsp;&nbsp;
 <br><br>
 
 
@@ -300,7 +347,13 @@ Level Easy (#Easy)<br>
 [104. Maximum Depth Of Binary Tree](src/main/java/org/example/g0101_0200/s0104_maximum_depth_of_binary_tree) &nbsp;&nbsp;
 [108. Convert Sorted Array To Binary Search Tree](src/main/java/org/example/g0101_0200/s0108_convert_sorted_array_to_binary_search_tree) &nbsp;&nbsp;
 [110. Balanced Binary Tree](src/main/java/org/example/g0101_0200/s0110_balanced_binary_tree) &nbsp;&nbsp;
+[112. Path Sum](src/main/java/org/example/g0101_0200/s0112_path_sum) &nbsp;&nbsp;
+[144. Binary Tree Preorder Traversal](src/main/java/org/example/g0101_0200/s0144_binary_tree_preorder_traversal) &nbsp;&nbsp;
+[145. Binary Tree Postorder Traversal](src/main/java/org/example/g0101_0200/s0145_binary_tree_postorder_traversal) &nbsp;&nbsp;
 [171. Excel Sheet Column Number](src/main/java/org/example/g0101_0200/s0171_excel_sheet_column_number) &nbsp;&nbsp;
+[222. Count Complete Tree Nodes](src/main/java/org/example/g0201_0300/s0222_count_complete_tree_nodes) &nbsp;&nbsp;
+[226. Invert Binary Tree](src/main/java/org/example/g0201_0300/s0226_invert_binary_tree) &nbsp;&nbsp;
+[404. Sum Of Left Leaves](src/main/java/org/example/g0401_0500/s0404_sum_of_left_leaves) &nbsp;&nbsp;
 [509. Fibonacci Number](src/main/java/org/example/g0501_0600/s0509_fibonacci_number) &nbsp;&nbsp;
 [680. Valid Palindrome II](src/main/java/org/example/g0601_0700/s0680_valid_palindrome_ii) &nbsp;&nbsp;
 [1137. N th Tribonacci Number](src/main/java/org/example/g1101_1200/s1137_n_th_tribonacci_number) &nbsp;&nbsp;
@@ -354,7 +407,11 @@ Level Easy (#Easy)<br>
 
 <b>Tree (#Tree)</b><br>
 Здесь помещаем задачи, которые используют для решения различнные виды деревьев<br>
-Примечания: Что такое Backtracking. Backtracking (возврат/откат) - это техника 
+Примечания. <br>
+Для многих решений, использующих деревья добавлен класс модель TreeNode.
+Он вспомогательный для решения, отправлять его на проверку не нужно,
+у LeetCode он уже есть. Отправляйте на проверку только класс Solution.<br>
+Что такое Backtracking. Backtracking (возврат/откат) - это техника 
 в программировании, когда мы: Делаем шаг вперед (добавляем элемент), 
 Пробуем все возможные варианты продолжения, Возвращаемся назад (убираем последний элемент)
 Пробуем другие варианты. Представьте, что вы идете по лабиринту: Идете по коридору 
@@ -366,6 +423,12 @@ Level Easy (#Easy)<br>
 [104. Maximum Depth Of Binary Tree](src/main/java/org/example/g0101_0200/s0104_maximum_depth_of_binary_tree)&nbsp;&nbsp;
 [108. Convert Sorted Array To Binary Search Tree](src/main/java/org/example/g0101_0200/s0108_convert_sorted_array_to_binary_search_tree) &nbsp;&nbsp;
 [110. Balanced Binary Tree](src/main/java/org/example/g0101_0200/s0110_balanced_binary_tree) &nbsp;&nbsp;
+[112. Path Sum](src/main/java/org/example/g0101_0200/s0112_path_sum) &nbsp;&nbsp;
+[144. Binary Tree Preorder Traversal](src/main/java/org/example/g0101_0200/s0144_binary_tree_preorder_traversal) &nbsp;&nbsp;
+[145. Binary Tree Postorder Traversal](src/main/java/org/example/g0101_0200/s0145_binary_tree_postorder_traversal) &nbsp;&nbsp;
+[222. Count Complete Tree Nodes](src/main/java/org/example/g0201_0300/s0222_count_complete_tree_nodes) &nbsp;&nbsp;
+[226. Invert Binary Tree](src/main/java/org/example/g0201_0300/s0226_invert_binary_tree) &nbsp;&nbsp;
 [257. Binary Tree Paths](src/main/java/org/example/g0201_0300/s0257_binary_tree_paths) &nbsp;&nbsp;
+[404. Sum Of Left Leaves](src/main/java/org/example/g0401_0500/s0404_sum_of_left_leaves) &nbsp;&nbsp;
 [506. Relative Ranks](src/main/java/org/example/g0501_0600/s0506_relative_ranks) &nbsp;&nbsp;
 <br><br>

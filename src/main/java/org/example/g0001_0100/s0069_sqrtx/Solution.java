@@ -2,6 +2,9 @@ package org.example.g0001_0100.s0069_sqrtx;
 
 /**
  * LeetCode #Easy #Math #BinarySearch
+ *
+ * 69. Sqrt(x)
+ *
  * Необходимо вычислить целочисленный квадратный корень из
  * неотрицательного числа
  *

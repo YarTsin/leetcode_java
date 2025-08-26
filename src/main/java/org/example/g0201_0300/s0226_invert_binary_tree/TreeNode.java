@@ -1,4 +1,4 @@
-package org.example.g0101_0200.s0101_symmetric_tree;
+package org.example.g0201_0300.s0226_invert_binary_tree;
 
 public class TreeNode {
    int val;

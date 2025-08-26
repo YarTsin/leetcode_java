@@ -1,4 +1,4 @@
-package org.example.g0101_0200.s0101_symmetric_tree;
+package org.example.g0401_0500.s0404_sum_of_left_leaves;
 
 public class TreeNode {
    int val;
