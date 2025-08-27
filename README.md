@@ -88,7 +88,17 @@ Level Easy (#Easy)<br>
 [69. Sqrtx](src/main/java/org/example/g0001_0100/s0069_sqrtx) &nbsp;&nbsp;
 [108. Convert Sorted Array To Binary Search Tree](src/main/java/org/example/g0101_0200/s0108_convert_sorted_array_to_binary_search_tree) &nbsp;&nbsp;
 [222. Count Complete Tree Nodes](src/main/java/org/example/g0201_0300/s0222_count_complete_tree_nodes) &nbsp;&nbsp;
+[278. First Bad Version](src/main/java/org/example/g0201_0300/s0278_first_bad_version) &nbsp;&nbsp;
 [367. Valid Perfect Square](src/main/java/org/example/g0301_0400/s0367_valid_perfect_square) &nbsp;&nbsp;
+[374. Guess Number Higher Or Lower](src/main/java/org/example/g0301_0400/s0374_guess_number_higher_or_lower)
+[441. Arranging Coins](src/main/java/org/example/g0401_0500/s0441_arranging_coins) &nbsp;&nbsp;
+[704. Binary Search](src/main/java/org/example/g0701_0800/s0704_binary_search) &nbsp;&nbsp;
+[744. Find Smallest Letter Greater Than Target](src/main/java/org/example/g0701_0800/s0744_find_smallest_letter_greater_than_target) &nbsp;&nbsp;
+[1337. The K Weakest Rows In A Matrix](src/main/java/org/example/g1301_1400/s1337_the_k_weakest_rows_in_a_matrix) &nbsp;&nbsp;
+[1351. Count Negative Numbers In A Sorted Matrix](src/main/java/org/example/g1301_1400/s1351_count_negative_numbers_in_a_sorted_matrix) &nbsp;&nbsp;
+[1385. Find The Distance Value Between Two Arrays](src/main/java/org/example/g1301_1400/s1385_find_the_distance_value_between_two_arrays) &nbsp;&nbsp;
+[1539. Kth Missing Positive Number](src/main/java/org/example/g1501_1600/s1539_kth_missing_positive_number) &nbsp;&nbsp;
+[1608. Special Array With X Elements Greater Than Or Equal X](src/main/java/org/example/g1601_1700/s1608_special_array_with_x_elements_greater_than_or_equal_x) &nbsp;&nbsp;
 <br><br>
 
 
@@ -186,8 +196,8 @@ innovative или особенно elegant подходы для решения 
 ~ Минимальное использование ресурсов. Используют меньше памяти или вычислений.<br>
 Пример: Алгоритм Флойда для нахождения цикла в связном списке с O(1) памятью.<br>
 Примеры Clever Algorithms <br>
-Morris Traversal, Boyer-Moore Majority Vote Algorithm,  Floyd's Cycle Detection (Черепаха и заяц),
-Kadane's Algorithm.
+Morris Traversal, Boyer-Moore Majority Vote Algorithm,  
+Floyd's Cycle Detection (Черепаха и заяц), Kadane's Algorithm.
 </details><br>
 
 <b>Depth-First Search (#DFS)</b><br>
@@ -216,7 +226,6 @@ Level Easy (#Easy)<br>
 [257. Binary Tree Paths](src/main/java/org/example/g0201_0300/s0257_binary_tree_paths) &nbsp;&nbsp;
 [404. Sum Of Left Leaves](src/main/java/org/example/g0401_0500/s0404_sum_of_left_leaves) &nbsp;&nbsp;
 [463. Island Perimeter](src/main/java/org/example/g0401_0500/s0463_island_perimeter) &nbsp;&nbsp;
-
 <br><br>
 
 
@@ -314,6 +323,7 @@ Level Easy (#Easy)<br>
 [342. Power Of Four](src/main/java/org/example/g0301_0400/s0342_power_of_four) &nbsp;&nbsp;
 [367. Valid Perfect Square](src/main/java/org/example/g0301_0400/s0367_valid_perfect_square) &nbsp;&nbsp;
 [405. Convert A Number TO Hexadecimal](src/main/java/org/example/g0401_0500/s0405_convert_a_number_to_hexadecimal) &nbsp;&nbsp;
+[441. Arranging Coins](src/main/java/org/example/g0401_0500/s0441_arranging_coins) &nbsp;&nbsp;
 [628. Maximum Product Of Three Numbers](src/main/java/org/example/g0601_0700/s0628_maximum_product_of_three_numbers) &nbsp;&nbsp;
 [645. Set Mismatch](src/main/java/org/example/g0601_0700/s0645_set_mismatch) &nbsp;&nbsp;
 [942. DI String Match](src/main/java/org/example/g0901_1000/s0942_di_string_match) &nbsp;&nbsp;
@@ -335,6 +345,8 @@ Level Easy (#Easy)<br>
 [680. Valid Palindrome II](src/main/java/org/example/g0601_0700/s0680_valid_palindrome_ii) &nbsp;&nbsp;
 [905. Sort Array By Parity](src/main/java/org/example/g0901_1000/s0905_sort_array_by_parity) &nbsp;&nbsp;
 [942. DI String Match](src/main/java/org/example/g0901_1000/s0942_di_string_match) &nbsp;&nbsp;
+[1346. Check If N And Its Double Exist](src/main/java/org/example/g1301_1400/s1346_check_if_n_and_its_double_exist) &nbsp;&nbsp;
+[1385. Find The Distance Value Between Two Arrays](src/main/java/org/example/g1301_1400/s1385_find_the_distance_value_between_two_arrays) &nbsp;&nbsp;
 <br><br>
 
 
@@ -356,6 +368,7 @@ Level Easy (#Easy)<br>
 [404. Sum Of Left Leaves](src/main/java/org/example/g0401_0500/s0404_sum_of_left_leaves) &nbsp;&nbsp;
 [509. Fibonacci Number](src/main/java/org/example/g0501_0600/s0509_fibonacci_number) &nbsp;&nbsp;
 [680. Valid Palindrome II](src/main/java/org/example/g0601_0700/s0680_valid_palindrome_ii) &nbsp;&nbsp;
+[704. Binary Search](src/main/java/org/example/g0701_0800/s0704_binary_search) &nbsp;&nbsp;
 [1137. N th Tribonacci Number](src/main/java/org/example/g1101_1200/s1137_n_th_tribonacci_number) &nbsp;&nbsp;
 <br><br>
 
@@ -373,6 +386,11 @@ Level Easy (#Easy)<br>
 [905. Sort Array By Parity](src/main/java/org/example/g0901_1000/s0905_sort_array_by_parity) &nbsp;&nbsp;
 [976. Largest Perimeter Triangle](src/main/java/org/example/g0901_1000/s0976_largest_perimeter_triangle) &nbsp;&nbsp;
 [1005. Maximize Sum Of Array After K Negations](src/main/java/org/example/g1001_1100/s1005_maximize_sum_of_array_after_k_negations) &nbsp;&nbsp;
+[1337. The K Weakest Rows In A Matrix](src/main/java/org/example/g1301_1400/s1337_the_k_weakest_rows_in_a_matrix) &nbsp;&nbsp;
+[1346. Check If N And Its Double Exist](src/main/java/org/example/g1301_1400/s1346_check_if_n_and_its_double_exist) &nbsp;&nbsp;
+[1351. Count Negative Numbers In A Sorted Matrix1](src/main/java/org/example/g1301_1400/s1351_count_negative_numbers_in_a_sorted_matrix) &nbsp;&nbsp;
+[1385. Find The Distance Value Between Two Arrays](src/main/java/org/example/g1301_1400/s1385_find_the_distance_value_between_two_arrays) &nbsp;&nbsp;
+[1608. Special Array With X Elements Greater Than Or Equal X](src/main/java/org/example/g1601_1700/s1608_special_array_with_x_elements_greater_than_or_equal_x) &nbsp;&nbsp;
 <br><br>
 
 

@@ -4,7 +4,8 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 /**
- * #Easy #Array #Sorting #Premium
+ * #Easy #Array #Sort #Premium
+ *
  * Задача Может ли человек посетить все встречи,
  * которые представлены в виде массива интервалов.
  * Другими словами, нужно проверить, не перекрываются ли интервалы встреч.
