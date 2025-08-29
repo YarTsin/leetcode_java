@@ -24,6 +24,7 @@ import java.util.Comparator;
  * Ожидаемый результат: true
  *
  * Решение связано с сортировкой массивов
+ * todo добавить readme.md на английском chat
  */
 public class Solution {
     public boolean canAttendMeetings(int[][] intervals) {

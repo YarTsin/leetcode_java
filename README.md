@@ -21,15 +21,20 @@
  
 Жми ★ если понравилось.<br><br>
 
-Моя статистика: [https://leetcode.com/u/YarTsin/](https://leetcode.com/u/YarTsin/) <br><br>
+Моя статистика: [https://leetcode.com/u/YarTsin/](https://leetcode.com/u/YarTsin/) <br>
+Решено более 90 задач<br><br>
 
 
 <b>Array (#Array)</b> <br> 
 В этом разделе показываем часть задач, использующих массивы <br>
-Примечания: мажоритарный элемент - элемент, который встречается более n/2 раз.
+Примечания.<br> 
+мажоритарный элемент - элемент, который встречается более n/2 раз.<br>
 Harmonious Subsequence - Определим гармоничную подпоследовательность 
 как подпоследовательность массива, в которой разница между 
-максимальным и минимальным элементами равна ровно 1, например 3,2,2,2,3.
+максимальным и минимальным элементами равна ровно 1, например 3,2,2,2,3.<br>
+Подпоследовательность (subsequence) - это последовательность, которая может быть
+получена из другой последовательности удалением некоторых элементов
+без изменения порядка оставшихся элементов
 <br>
 Level Easy (#Easy)<br>
 [1. Two Sum](src/main/java/org/example/g0001_0100/s0001_two_sum) &nbsp;&nbsp;
@@ -52,6 +57,7 @@ Level Easy (#Easy)<br>
 [628. Maximum Product Of Three Numbers](src/main/java/org/example/g0601_0700/s0628_maximum_product_of_three_numbers) &nbsp;&nbsp;
 [645. Set Mismatch](src/main/java/org/example/g0601_0700/s0645_set_mismatch) &nbsp;&nbsp;
 [860. Lemonade Change](src/main/java/org/example/g0801_0900/s0860_lemonade_change) &nbsp;&nbsp;
+[2089. Find Target Indices After Sorting Array](src/main/java/org/example/g2001_2100/s2089_find_target_indices_after_sorting_array) &nbsp;&nbsp;
 [2900. Longest Unequal Adjacent Groups Subsequence I](src/main/java/org/example/g2801_2900/p2900_longest_unequal_adjacent_groups_subsequence_i) &nbsp;&nbsp;
 <br><br>
 
@@ -99,6 +105,8 @@ Level Easy (#Easy)<br>
 [1385. Find The Distance Value Between Two Arrays](src/main/java/org/example/g1301_1400/s1385_find_the_distance_value_between_two_arrays) &nbsp;&nbsp;
 [1539. Kth Missing Positive Number](src/main/java/org/example/g1501_1600/s1539_kth_missing_positive_number) &nbsp;&nbsp;
 [1608. Special Array With X Elements Greater Than Or Equal X](src/main/java/org/example/g1601_1700/s1608_special_array_with_x_elements_greater_than_or_equal_x) &nbsp;&nbsp;
+[2089. Find Target Indices After Sorting Array](src/main/java/org/example/g2001_2100/s2089_find_target_indices_after_sorting_array) &nbsp;&nbsp;
+[2389. Longest Subsequence With Limited Sum](src/main/java/org/example/g2301_2400/s2389_longest_subsequence_with_limited_sum) &nbsp;&nbsp;
 <br><br>
 
 
@@ -268,6 +276,7 @@ Level Easy (#Easy)<br>
 [1005. Maximize Sum Of Array After K Negations](src/main/java/org/example/g1001_1100/s1005_maximize_sum_of_array_after_k_negations) &nbsp;&nbsp;
 [1013. Partition Array Into Three Parts With Equal Sum](src/main/java/org/example/g1001_1100/s1013_partition_array_into_three_parts_with_equal_sum) &nbsp;&nbsp;
 [1217. Minimum Cost To Move Chips To The Same Position](src/main/java/org/example/g1201_1300/s1217_minimum_cost_to_move_chips_to_the_same_position) &nbsp;&nbsp;
+[2389. Longest Subsequence With Limited Sum](src/main/java/org/example/g2301_2400/s2389_longest_subsequence_with_limited_sum) &nbsp;&nbsp;
 <br><br>
 
 
@@ -347,6 +356,7 @@ Level Easy (#Easy)<br>
 [942. DI String Match](src/main/java/org/example/g0901_1000/s0942_di_string_match) &nbsp;&nbsp;
 [1346. Check If N And Its Double Exist](src/main/java/org/example/g1301_1400/s1346_check_if_n_and_its_double_exist) &nbsp;&nbsp;
 [1385. Find The Distance Value Between Two Arrays](src/main/java/org/example/g1301_1400/s1385_find_the_distance_value_between_two_arrays) &nbsp;&nbsp;
+[2389. Longest Subsequence With Limited Sum](src/main/java/org/example/g2301_2400/s2389_longest_subsequence_with_limited_sum) &nbsp;&nbsp;
 <br><br>
 
 
@@ -391,6 +401,8 @@ Level Easy (#Easy)<br>
 [1351. Count Negative Numbers In A Sorted Matrix1](src/main/java/org/example/g1301_1400/s1351_count_negative_numbers_in_a_sorted_matrix) &nbsp;&nbsp;
 [1385. Find The Distance Value Between Two Arrays](src/main/java/org/example/g1301_1400/s1385_find_the_distance_value_between_two_arrays) &nbsp;&nbsp;
 [1608. Special Array With X Elements Greater Than Or Equal X](src/main/java/org/example/g1601_1700/s1608_special_array_with_x_elements_greater_than_or_equal_x) &nbsp;&nbsp;
+[2089. Find Target Indices After Sorting Array](src/main/java/org/example/g2001_2100/s2089_find_target_indices_after_sorting_array) &nbsp;&nbsp;
+[2389. Longest Subsequence With Limited Sum](src/main/java/org/example/g2301_2400/s2389_longest_subsequence_with_limited_sum) &nbsp;&nbsp;
 <br><br>
 
 
