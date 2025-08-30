@@ -1,9 +1,9 @@
 package org.example.g0601_0700.s0680_valid_palindrome_ii;
 
-
+// #Easy #String #Greedy #Two_Pointers
 
 /**
- * #Easy #String #Greedy #Pointers
+ * 680. Valid Palindrome II
  *
  * Условие: Дана строка s. Можно удалить не более одного символа.
  * Определить, может ли строка стать палиндромом после такого удаления.

@@ -1,14 +1,20 @@
 package org.example.g0201_0300.s0219_contains_duplicate_ii;
 
+// #Easy #Array #Hash_Table #Sliding_Window #Top_Interview_150_Hashmap
+
 import java.util.HashMap;
 import java.util.Map;
 
 /**
- * LeetCode #Easy #Array
+ *
+ * 219. Contains Duplicate II
+ *
  * Даны массив целых чисел nums и целое число k.
  * Нужно определить, существуют ли два различных индекса i и j в массиве, такие что:
  * nums[i] == nums[j] (элементы равны)
  * abs(i - j) <= k (расстояние между индексами не превышает k)
+ *
+ * todo доделать
  */
 class Solution {
     public boolean containsNearbyDuplicate(int[] nums, int k) {

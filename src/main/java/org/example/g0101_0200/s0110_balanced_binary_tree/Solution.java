@@ -1,7 +1,9 @@
 package org.example.g0101_0200.s0110_balanced_binary_tree;
 
+// #Easy #Depth_First_Search #Tree #Binary_Tree #Recursion
+
 /**
- * #Easy #DFS #Tree #BinaryTree #Recursion
+ *
  * 110. Balanced Binary Tree
  * Условие: Дано бинарное дерево. Необходимо определить,
  * является ли оно сбалансированным по высоте.

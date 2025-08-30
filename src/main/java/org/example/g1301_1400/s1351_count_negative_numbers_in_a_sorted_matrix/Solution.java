@@ -1,7 +1,8 @@
 package org.example.g1301_1400.s1351_count_negative_numbers_in_a_sorted_matrix;
 
+// #Easy #Array #Binary_Search #Matrix
+
 /**
- * #Easy #Array #BinarySearch #Matrix
  * 1351. Count Negative Numbers in a Sorted Matrix
  *
  * Условие задачи:

@@ -1,7 +1,10 @@
 package org.example.g1001_1100.s1013_partition_array_into_three_parts_with_equal_sum;
 
+// #Easy #Array #Greedy
+
 /**
- * #Easy #Array #Greedy
+ * 1013. Partition Array Into Three Parts With Equal Sum
+ *
  * Условие: Дан массив целых чисел arr. Необходимо определить, можно ли разбить
  * массив на три непрерывных части с равными суммами.
  * Существуют ли индексы i и j такие, что:  0 < i < j < arr.length - 1

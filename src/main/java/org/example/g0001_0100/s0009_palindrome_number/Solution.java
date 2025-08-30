@@ -1,7 +1,10 @@
 package org.example.g0001_0100.s0009_palindrome_number;
 
+// #Easy #Math #Udemy_Integers #Top_Interview_150_Math
+
+
 /**
- * #Easy #Math
+ *  9. Palindrome Number
  * Является ли целое число палиндромом.
  * Палиндром - это число (или строка), которое читается одинаково в обоих направлениях.
  *
@@ -9,6 +12,7 @@ package org.example.g0001_0100.s0009_palindrome_number;
  * 121 → true
  * -121 → false (из-за минуса)
  * 10 → false
+ * todo переделать
  */
 class Solution {
     /**

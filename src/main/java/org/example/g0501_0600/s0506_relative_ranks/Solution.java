@@ -1,10 +1,13 @@
 package org.example.g0501_0600.s0506_relative_ranks;
 
+// #Easy #Array #Sorting #Heap_Priority_Queue
+
 import java.util.Arrays;
 import java.util.Comparator;
 
 /**
- * #Easy #Array #Sort
+ * 506. Relative Ranks
+ *
  * Дан массив score размером n, где score[i] - это счет i-го спортсмена.
  * Спортсмены с более высоким счетом имеют более высокий ранг.
  * Ранги распределяются следующим образом:

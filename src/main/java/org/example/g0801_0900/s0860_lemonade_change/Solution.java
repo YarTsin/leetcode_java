@@ -1,7 +1,9 @@
 package org.example.g0801_0900.s0860_lemonade_change;
 
+// #Easy #Array #Greedy
+
 /**
- * #Easy #Array #Greedy
+ * 860. Lemonade Change
  *
  * Условие: У вас есть ларёк с лимонадом, каждый стакан стоит 5 долларов.
  * Клиенты стоят в очереди и покупают по одному стакану, оплачивая

@@ -1,7 +1,11 @@
 package org.example.g0301_0400.s0342_power_of_four;
 
+// #Easy #Math #Bit_Manipulation #Recursion
+
+
 /**
- * #Easy #Math Степень числа
+ * 342. Power of Four
+ *
  * Дано целое число n. Необходимо определить,
  * является ли оно степенью числа 4. То есть, существует
  * ли такое целое число x, что 4^x = n.

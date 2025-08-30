@@ -1,7 +1,10 @@
 package org.example.g0201_0300.s0268_missing_number;
 
+// #Easy #Array #Hash_Table #Math #Sorting #Binary_Search #Bit_Manipulation
+
 /**
- * #Easy #Array #Math
+ * 268. Missing Number
+ *
  * Дан массив nums, содержащий n различных чисел в диапазоне [0, n].
  * Нужно найти единственное число из этого диапазона,
  * которое отсутствует в массиве.

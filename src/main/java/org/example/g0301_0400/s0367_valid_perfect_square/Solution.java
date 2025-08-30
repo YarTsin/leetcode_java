@@ -1,6 +1,11 @@
 package org.example.g0301_0400.s0367_valid_perfect_square;
 
+// #Easy #Math #Binary_Search
+
+
 /**
+ * 367. Valid Perfect Square
+ *
  * Дано положительное целое число num.
  * Необходимо определить, является ли оно полным квадратом
  * (perfect square) без использования встроенной функции вычисления

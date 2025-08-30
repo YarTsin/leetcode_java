@@ -1,6 +1,10 @@
 package org.example.g1001_1100.s1025_divisor_game;
 
+// #Easy #Dynamic_Programming #Math #Game_Theory #Brainteaser
+
 /**
+ * 1025. Divisor Game
+ *
  * Задача: Алиса и Боб играют в игру, начиная с числа n. Каждый игрок делает ход:
  * Выбирает любое x такое, что 0<x<n  и  n%x == 0
  * Заменяет число n на n - x
@@ -12,7 +16,7 @@ package org.example.g1001_1100.s1025_divisor_game;
  * n = 2 → Алиса выбирает x=1, заменяет 2 на 1. Боб не может ходить. Вывод: true
  * n = 3 → Алиса вынуждена выбрать x=1, заменяет 3 на 2. Боб выбирает x=1, заменяет 2 на 1. Алиса не может ходить. Вывод: false
  *
- * todo запутанные условия
+ * todo запутанные условия доделать
  */
 public class Solution {
     public boolean divisorGame(int n) {

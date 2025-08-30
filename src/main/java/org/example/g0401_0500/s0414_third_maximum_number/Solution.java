@@ -1,8 +1,10 @@
 package org.example.g0401_0500.s0414_third_maximum_number;
 
+// #Easy #Array #Sorting
 
 /**
- * #Easy #Array #Sort
+ * 414. Third Maximum Number
+ *
  * Дан целочисленный массив nums. Необходимо вернуть третье
  * по величине максимальное число в этом массиве.
  * Если третьего максимума не существует,

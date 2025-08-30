@@ -1,7 +1,10 @@
 package org.example.g0101_0200.s0168_excel_sheet_column_title;
 
+// #Easy #String #Math
+
 /**
- * LeetCode #Easy #Math
+ * 168. Excel Sheet Column Title
+ *
  * Понимание задачи
  * Задача требует преобразовать целое число в соответствующий
  * заголовок столбца Excel. Например:

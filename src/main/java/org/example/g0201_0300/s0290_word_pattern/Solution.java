@@ -1,10 +1,13 @@
 package org.example.g0201_0300.s0290_word_pattern;
 
+// #Easy #String #Hash_Table #Top_Interview_150_Hashmap
+
 import java.util.HashMap;
 import java.util.Map;
 
 /**
- * #Easy #String #HashMap
+ * 290. Word Pattern
+ *
  * Задача требует проверить, соответствует ли строка str заданному шаблону pattern.
  * Соответствие означает, что каждому символу в pattern соответствует одно
  * и только одно слово в str, и наоборот.

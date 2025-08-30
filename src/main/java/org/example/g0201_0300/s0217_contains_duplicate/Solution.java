@@ -1,13 +1,19 @@
 package org.example.g0201_0300.s0217_contains_duplicate;
 
+// #Easy #Top_Interview_Questions #Array #Hash_Table #Sorting
+
 import java.util.HashSet;
 import java.util.Set;
 
+
 /**
- * LeetCode #Easy #Array
+ * 217. Contains Duplicate
+ *
  * Дан массив целых чисел. Нужно определить, содержит ли массив дубликаты
  * - то есть есть ли хотя бы одно значение, которое встречается
  * в массиве два или более раз
+ *
+ * todo доделать
  */
 class Solution {
     public boolean containsDuplicate(int[] nums) {

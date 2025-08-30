@@ -1,9 +1,10 @@
 package org.example.g1601_1700.s1608_special_array_with_x_elements_greater_than_or_equal_x;
 
+// #Easy #Array #Sorting #Binary_Search
+
 import java.util.Arrays;
 
 /**
- * #Easy #Array #Sort #BinarySearch
  * 1608. Special Array With X Elements Greater Than or Equal X
  *
  * Условие задачи:

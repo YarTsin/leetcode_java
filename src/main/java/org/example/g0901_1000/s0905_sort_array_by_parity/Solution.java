@@ -1,9 +1,9 @@
 package org.example.g0901_1000.s0905_sort_array_by_parity;
 
-
+// #Easy #Array #Sorting #Two_Pointers
 
 /**
- * #Easy #Array #Sort #Pointers
+ * 905. Sort Array By Parity
  *
  * Дан массив целых неотрицательных чисел nums.
  * Необходимо отсортировать массив так, чтобы все четные числа

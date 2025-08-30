@@ -1,7 +1,10 @@
 package org.example.g0401_0500.s0404_sum_of_left_leaves;
 
+// #Easy #Depth_First_Search #Breadth_First_Search #Tree #Binary_Tree #Recursion
+
+
 /**
- * #Easy #DFS #BFS #Tree #BinaryTree #Recursion
+ * 404. Sum of Left Leaves
  *
  * Задача: Найти сумму всех левых листьев в бинарном дереве.
  * Левый лист - это листовой узел, который является левым потомком своего родителя.

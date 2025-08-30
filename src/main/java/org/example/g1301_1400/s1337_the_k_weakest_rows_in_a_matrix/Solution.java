@@ -1,11 +1,12 @@
 package org.example.g1301_1400.s1337_the_k_weakest_rows_in_a_matrix;
 
+// #Easy #Array #Sorting #Binary_Search #Matrix #Heap_Priority_Queue
+
 import java.util.Arrays;
 
 /**
- * #Easy #Array #Sorting #BinarySearch #Matrix
- *
  * 1337. The K Weakest Rows in a Matrix
+ *
  * Условие задачи:
  * Дана матрица mat размером m × n из нулей и единиц, где:
  * Все единицы в каждой строке находятся слева, а нули - справа

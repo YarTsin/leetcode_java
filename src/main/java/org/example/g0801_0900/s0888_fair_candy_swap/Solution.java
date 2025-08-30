@@ -1,10 +1,13 @@
 package org.example.g0801_0900.s0888_fair_candy_swap;
 
+// #Easy #Array #Hash_Table #Sorting #Binary_Search
+
 import java.util.HashSet;
 import java.util.Set;
 
 /**
- * #Easy #Array #HashMap
+ * 888. Fair Candy Swap
+ *
  * Алиса и Боб имеют коробки с конфетами разных размеров. Вам даны два массива:
  * aliceSizes - размеры коробок Алисы
  * bobSizes - размеры коробок Боба
@@ -36,7 +39,7 @@ import java.util.Set;
  * Алиса: 2 + 2 = 4
  * Боб: 1 + 3 = 4
  *
- * todo разобратося подробнее
+ * todo разобраться подробнее
  *
  * Оптимальное решение - с использованием HashSet - 8 ms
  */

@@ -1,7 +1,11 @@
 package org.example.g0001_0100.s0100_same_tree;
 
+// #Easy #Depth_First_Search #Breadth_First_Search #Tree #Binary_Tree
+// #Udemy_Tree_Stack_Queue #Top_Interview_150_Binary_Tree_General
+
 /**
- * #Easy #DFS #BFS #Tree #BinaryTree #Recursion
+ * 100. Same Tree
+ *
  * Условие: Даны корни двух бинарных деревьев.
  * Необходимо определить, являются ли они одинаковыми.
  * Требования:

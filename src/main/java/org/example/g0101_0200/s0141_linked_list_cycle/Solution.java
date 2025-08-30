@@ -1,7 +1,11 @@
 package org.example.g0101_0200.s0141_linked_list_cycle;
 
+// #Easy #Top_100_Liked_Questions #Top_Interview_Questions #Hash_Table #Two_Pointers #Linked_List
+// #Top_Interview_150_Linked_List
+
 /**
- * LeetCode #Easy #Tree #Pointers
+ * 141. Linked List Cycle
+ *
  * Задача требует определить, содержит ли связный список цикл.
  * Цикл в связанном списке означает, что некоторый узел можно достичь,
  * следуя по указателям next непрерывно.

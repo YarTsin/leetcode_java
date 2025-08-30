@@ -1,9 +1,13 @@
 package org.example.g2801_2900.p2900_longest_unequal_adjacent_groups_subsequence_i;
 
+// #Easy #Array #String #Dynamic_Programming #Greedy
+
 import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * 2900. Longest Unequal Adjacent Groups Subsequence I
+ *
  * Задача: даны массив строк words и массив чисел groups
  * одинаковой длины. Нужно найти самую длинную подпоследовательность, где:
  * Соседние элементы в groups имеют разные значения

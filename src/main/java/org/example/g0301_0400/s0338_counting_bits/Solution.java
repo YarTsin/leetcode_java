@@ -1,7 +1,10 @@
 package org.example.g0301_0400.s0338_counting_bits;
 
+// #Easy #Dynamic_Programming #Bit_Manipulation #LeetCode_75_Bit_Manipulation
+
 /**
- * #Easy #Bits
+ * 338. Counting Bits
+ *
  * Задача: для заданного целого числа n вернуть массив ans длины n + 1,
  * где каждый элемент ans[i] - это количество единиц в двоичном представлении числа i.
  * Пример:

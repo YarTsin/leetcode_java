@@ -1,7 +1,8 @@
 package org.example.g1501_1600.s1539_kth_missing_positive_number;
 
+// #Easy #Array #Binary_Search
+
 /**
- * #Easy #Array #BinarySearch
  * 1539. Kth Missing Positive Number
  *
  * Условие задачи:

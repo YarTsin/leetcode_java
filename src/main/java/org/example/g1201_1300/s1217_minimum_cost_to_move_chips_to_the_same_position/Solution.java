@@ -1,7 +1,9 @@
 package org.example.g1201_1300.s1217_minimum_cost_to_move_chips_to_the_same_position;
 
+// #Easy #Array #Math #Greedy
+
 /**
- * #Easy #Array #Math #Greedy
+ * 1217. Minimum Cost to Move Chips to The Same Position
  *
  * Условие: Есть n фишек, расположенных на различных позициях.
  * Каждая фишка находится на некоторой позиции. Фишки можно перемещать

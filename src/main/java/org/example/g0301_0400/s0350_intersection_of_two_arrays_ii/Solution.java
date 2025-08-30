@@ -1,9 +1,12 @@
 package org.example.g0301_0400.s0350_intersection_of_two_arrays_ii;
 
+// #Easy #Array #Hash_Table #Sorting #Binary_Search #Two_Pointers
+
 import java.util.*;
 
 /**
- * #Easy #Array
+ * 350. Intersection of Two Arrays II
+ *
  * Задача требует найти пересечение двух массивов - то есть элементы,
  * которые присутствуют в обоих массивах. Нужно учитывать количество
  * вхождений каждого элемента. Если элемент появляется n раз

@@ -1,8 +1,8 @@
 package org.example.g0001_0100.s0069_sqrtx;
+// #Easy #Top_Interview_Questions #Math #Binary_Search
+// #Top_Interview_150_Math
 
 /**
- * LeetCode #Easy #Math #BinarySearch
- *
  * 69. Sqrt(x)
  *
  * Необходимо вычислить целочисленный квадратный корень из

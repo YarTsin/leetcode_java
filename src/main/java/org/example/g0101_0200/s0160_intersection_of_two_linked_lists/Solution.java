@@ -1,7 +1,11 @@
 package org.example.g0101_0200.s0160_intersection_of_two_linked_lists;
 
+// #Easy #Top_100_Liked_Questions #Top_Interview_Questions
+// #Hash_Table #Two_Pointers #Linked_List
+
 /**
- * LeetCode #Easy #Tree
+ * 160. Intersection of Two Linked Lists
+ *
  * Нам даны два связных списка, которые в какой-то точке могут
  * пересекаться (иметь общий узел). Наша задача - найти этот узел
  * пересечения или вернуть null, если пересечения нет.
@@ -11,6 +15,8 @@ package org.example.g0101_0200.s0160_intersection_of_two_linked_lists;
  * он компенсирует разницу в длинах списков.
  * Оба указателя пройдут одинаковое расстояние (длина A + длина B),
  * поэтому встретятся в точке пересечения или оба достигнут конца.
+ *
+ * todo доделать
  */
 public class Solution {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {

@@ -1,8 +1,8 @@
 package org.example.g0001_0100.s0035_search_insert_position;
+// #Easy #Top_100_Liked_Questions #Array #Binary_Search
+// #Top_Interview_150_Binary_Search
 
 /**
- * LeetCode #Easy #Array #BinarySearch
- *
  * 35. Search Insert Position
  *
  * Вернуть  индекс целевого числа в отсортированном массиве, если значение найдено
@@ -24,6 +24,7 @@ package org.example.g0001_0100.s0035_search_insert_position;
  * Выход: 1 (число 2 было бы вставлено между 1 и 3)
  *
  * Используем бинарный поиск (Binary Search) (по условию)
+ * todo переделать
  */
 public class Solution {
     public int searchInsert(int[] nums, int target) {

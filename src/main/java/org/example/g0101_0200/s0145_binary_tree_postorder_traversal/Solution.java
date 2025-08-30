@@ -4,8 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
+// #Easy #Depth_First_Search #Tree #Binary_Tree #Stack #Recursion
+
 /**
- * #Easy #DFS #Tree #BinaryTree #Stack #Recursion
  * 145. Binary Tree Postorder Traversal
  *
  * Задача: Реализовать обход бинарного дерева в порядке postorder

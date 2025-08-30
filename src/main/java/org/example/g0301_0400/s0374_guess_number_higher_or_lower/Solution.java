@@ -1,7 +1,7 @@
 package org.example.g0301_0400.s0374_guess_number_higher_or_lower;
 
+// #Easy #Binary_Search #Interactive #LeetCode_75_Binary_Search
 /**
- * #Easy #BinarySearch #Interactive #LeetCode_75_Binary_Search
  * 374. Guess Number Higher or Lower
  *
  * Предоставляется API функция guess(int num), которая возвращает:

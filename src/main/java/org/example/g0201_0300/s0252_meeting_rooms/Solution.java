@@ -1,10 +1,12 @@
 package org.example.g0201_0300.s0252_meeting_rooms;
 
+//#Easy #Array #Sort #Premium
+
 import java.util.Arrays;
 import java.util.Comparator;
 
 /**
- * #Easy #Array #Sort #Premium
+ * 252. Meeting Rooms
  *
  * Задача Может ли человек посетить все встречи,
  * которые представлены в виде массива интервалов.

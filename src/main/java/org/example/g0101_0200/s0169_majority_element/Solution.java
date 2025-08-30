@@ -1,9 +1,14 @@
 package org.example.g0101_0200.s0169_majority_element;
 
+// #Easy #Top_100_Liked_Questions #Top_Interview_Questions #Array #Hash_Table #Sorting #Counting
+// #Divide_and_Conquer
+// #Top_Interview_150_Array/String
+
 /**
- * LeetCode #Easy #Array
+ * 169. Majority Element
+ *
  * Дан массив nums размера n. Нужно найти "мажоритарный элемент"
- * - элемент, который встречается более ⌊n/2⌋ раз.
+ * - элемент, который встречается более (n/2) раз.
  * Можно считать, что мажоритарный элемент всегда существует в массиве.
  *
  * Лучшее решение использует алгоритм Бойера-Мура для поиска большинства,
@@ -19,6 +24,8 @@ package org.example.g0101_0200.s0169_majority_element;
  * другие элементы не смогут "перевесить" его в процессе голосования.
  * Даже если счетчик уменьшается при встрече других элементов,
  * у мажоритарного элемента достаточно "силы", чтобы остаться в конце.
+ *
+ * todo доделать
  */
 class Solution {
     public int majorityElement(int[] nums) {

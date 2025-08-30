@@ -1,7 +1,9 @@
 package org.example.g0601_0700.s0605_can_place_flowers;
 
+// #Easy #Array #Greedy #LeetCode_75_Array/String
+
 /**
- * #Easy #Array #Greedy
+ * 605. Can Place Flowers
  *
  * Условие: У вас есть длинная клумба, в которой некоторые
  * участки заняты, а некоторые нет. Однако цветы нельзя сажать

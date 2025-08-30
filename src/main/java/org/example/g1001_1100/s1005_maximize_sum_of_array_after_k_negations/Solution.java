@@ -1,9 +1,12 @@
 package org.example.g1001_1100.s1005_maximize_sum_of_array_after_k_negations;
 
+// #Easy #Array #Sorting #Greedy
+
 import java.util.Arrays;
 
 /**
- * #Easy #Array #Sort #Greedy
+ * 1005. Maximize Sum Of Array After K Negations
+ *
  * Условие:
  * Дан массив целых чисел nums и целое число k.
  * За одну операцию можно выбрать любой элемент массива и изменить

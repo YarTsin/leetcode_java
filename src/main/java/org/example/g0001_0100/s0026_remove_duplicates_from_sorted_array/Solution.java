@@ -1,7 +1,9 @@
 package org.example.g0001_0100.s0026_remove_duplicates_from_sorted_array;
+// #Easy #Top_Interview_Questions #Array #Two_Pointers #Udemy_Two_Pointers
+// #Top_Interview_150_Array/String
 
 /**
- * LeetCode #Easy #Array
+ * 26. Remove Duplicates from Sorted Array
  * Задача требует удалить дубликаты из отсортированного массива на месте
  * (без использования дополнительной памяти) и вернуть новую длину массива без дубликатов.
  *
@@ -9,6 +11,7 @@ package org.example.g0001_0100.s0026_remove_duplicates_from_sorted_array;
  * Выход: 5 (и первые 5 элементов массива должны быть [0,1,2,3,4])
  *
  * Используем 2 указателя
+ * todo переделать
  */
 public class Solution {
     public int removeDuplicates(int[] nums) {

@@ -1,7 +1,8 @@
 package org.example.g0701_0800.s0744_find_smallest_letter_greater_than_target;
 
+// #Easy #Array #Binary_Search #Char
+
 /**
- * #Easy #Array #BinarySearch #Char
  * 744. Find Smallest Letter Greater Than Target
  *
  * Дан массив символов letters, отсортированный в неубывающем

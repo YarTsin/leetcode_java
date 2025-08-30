@@ -1,8 +1,12 @@
 package org.example.g0101_0200.s0108_convert_sorted_array_to_binary_search_tree;
 
+// #Easy #Top_100_Liked_Questions #Top_Interview_Questions #Array #Tree #Binary_Tree
+// #Binary_Search_Tree #Divide_and_Conquer #Recursion
+// #Top_Interview_150_Divide_and_Conquer
+
+
 /**
- * LeetCode #Easy #Recursion
- * #BinarySearch #BST #Tree
+ * 108. Convert Sorted Array to Binary Search Tree
  *
  * Условие:
  * Дан отсортированный массив nums в возрастающем порядке.

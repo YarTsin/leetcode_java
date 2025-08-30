@@ -1,7 +1,10 @@
 package org.example.g0701_0800.s0747_largest_number_at_least_twice_of_others;
 
+// #Easy #Array #Sorting
+
 /**
- * #Easy #Array
+ * 747. Largest Number At Least Twice of Others
+ *
  * Вам дан массив целых чисел nums, где есть ровно один наибольший элемент.
  * Необходимо определить, является ли этот наибольший элемент по крайней мере
  * в два раза больше каждого из остальных чисел в массиве. Если да, вернуть индекс

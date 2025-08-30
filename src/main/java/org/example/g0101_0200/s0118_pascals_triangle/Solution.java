@@ -1,10 +1,15 @@
 package org.example.g0101_0200.s0118_pascals_triangle;
 
+// #Easy #Top_100_Liked_Questions #Top_Interview_Questions #Array #Dynamic_Programming
+// #Data_Structure_I_Day_4_Array #Math
+
 import java.util.ArrayList;
 import java.util.List;
 
+
 /**
- * LeetCode #Easy #Math
+ * 118. Pascal's Triangle
+ *
  * Дано целое число numRows. Необходимо вернуть первые
  * numRows строк треугольника Паскаля.
  * Треугольник Паскаля — это структура, где:

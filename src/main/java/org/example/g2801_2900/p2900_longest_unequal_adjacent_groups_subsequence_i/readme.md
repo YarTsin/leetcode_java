@@ -1,6 +1,6 @@
 2900\. Longest Unequal Adjacent Groups Subsequence I
 
-Medium
+
 
 You are given an integer `n`, a **0-indexed** string array `words`, and a **0-indexed** **binary** array `groups`, both arrays having length `n`.
 

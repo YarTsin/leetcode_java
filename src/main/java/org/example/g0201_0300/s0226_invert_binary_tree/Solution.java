@@ -1,9 +1,11 @@
 package org.example.g0201_0300.s0226_invert_binary_tree;
 
+// #Easy #Top_100_Liked_Questions #Depth_First_Search #Breadth_First_Search #Tree #Binary_Tree
+// #Top_Interview_150_Binary_Tree_General
+
+
 /**
- * #Easy #Top_100_Liked_Questions #DFS #BFS #Tree #BinaryTree
- * ##LinkedList #Recursion
- * #Top_Interview_150_Binary_Tree_General
+ * 226. Invert Binary Tree
  *
  * Инвертировать бинарное дерево (создать его зеркальное отражение).
  * примеры внизу
@@ -13,7 +15,7 @@ package org.example.g0201_0300.s0226_invert_binary_tree;
  * Объяснение подхода:
  * Используем рекурсивный обход в глубину (DFS)
  * Для каждого узла меняем местами его левое и правое поддеревья
- * (полуяается не углубляемся - первые родственники)
+ * (получается не углубляемся - первые родственники)
  * Временная сложность: O(n) - каждый узел посещается один раз
  * Пространственная сложность: O(h) - высота дерева (для стека вызовов)
  *

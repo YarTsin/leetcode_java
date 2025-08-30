@@ -1,7 +1,8 @@
 package org.example.g0401_0500.s0441_arranging_coins;
 
+// #Easy #Math #Binary_Search
+
 /**
- * #Easy #Math #BinarySearch
  * 441. Arranging Coins
  *
  * Задача: Определить количество полных рядов лестницы,

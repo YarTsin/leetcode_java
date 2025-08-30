@@ -1,10 +1,11 @@
 package org.example.g0001_0100.s0013_roman_to_integer;
-
+// #Easy #Top_Interview_Questions #String #Hash_Table #Math
+// #Top_Interview_150_Array/String
 import java.util.HashMap;
 import java.util.Map;
 
 /**
- * LeetCode #Easy #String #HashMap
+ * 13. Roman to Integer
  * Задача: преобразовать римское число в целое.
  * I = 1
  * V = 5
@@ -21,6 +22,7 @@ import java.util.Map;
  * Однако есть особые случаи, когда меньшая цифра
  * стоит перед большей (например, IV = 4, IX = 9),
  * и в этом случае меньшая цифра вычитается.
+ * todo переделать
  */
 public class Solution {
     public int romanToInt(String string) {

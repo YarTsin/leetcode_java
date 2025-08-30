@@ -1,7 +1,9 @@
 package org.example.g0601_0700.s0628_maximum_product_of_three_numbers;
 
+// #Easy #Array #Math #Sorting
+
 /**
- * #Easy #Array #Math #Sort
+ * 628. Maximum Product of Three Numbers
  *
  * Дан массив целых чисел. Необходимо найти три числа,
  * произведение которых будет максимальным среди всех возможных троек

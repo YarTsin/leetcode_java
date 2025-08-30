@@ -1,7 +1,10 @@
 package org.example.g0001_0100.s0070_climbing_stairs;
+// #Easy #Top_100_Liked_Questions #Top_Interview_Questions #Dynamic_Programming #Math #Memoization
+// #Udemy_Dynamic_Programming
 
 /**
- * #Easy #DP
+ * 70. Climbing Stairs
+ *
  * Задача: вам нужно подняться по лестнице из n ступенек.
  * Каждый раз вы можете сделать либо 1 шаг, либо 2 шага.
  * Сколько существует различных способов подняться на вершину?
@@ -11,6 +14,7 @@ package org.example.g0001_0100.s0070_climbing_stairs;
  * n = 3 → 3 способа (1+1+1, 1+2, 2+1)
  *
  * todo пока не очень понятно
+ * todo переделать
  */
 public class Solution {
     public int climbStairs(int n) {

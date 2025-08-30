@@ -1,7 +1,12 @@
 package org.example.g0101_0200.s0104_maximum_depth_of_binary_tree;
 
+// #Easy #Top_100_Liked_Questions #Top_Interview_Questions #Depth_First_Search #Breadth_First_Search
+// #Tree #Binary_Tree #LeetCode_75_Binary_Tree/DFS #Recursion
+// #Top_Interview_150_Binary_Tree_General
+
 /**
- * #Easy #DFS #BFS #Tree #BinaryTree #Recursion
+ * 104. Maximum Depth of Binary Tree
+ *
  * Дано бинарное дерево. Необходимо найти его максимальную глубину.
  * Примеры внизу
  *

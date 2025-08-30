@@ -1,11 +1,11 @@
 package org.example.g2001_2100.s2089_find_target_indices_after_sorting_array;
 
+// #Easy #Array #Sorting #Binary_Search
+
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * #Easy #Array #Sort #BinarySearch
- *
  * 2089. Find Target Indices After Sorting Array
  *
  * Дан массив целых чисел nums и целое число target.

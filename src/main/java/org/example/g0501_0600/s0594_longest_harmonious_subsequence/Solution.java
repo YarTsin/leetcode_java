@@ -1,10 +1,12 @@
 package org.example.g0501_0600.s0594_longest_harmonious_subsequence;
 
+// #Easy #Array #Hash_Table #Sorting
+
 import java.util.HashMap;
 import java.util.Map;
 
 /**
- * #Easy #Array #HashMap #Sort
+ * 594. Longest Harmonious Subsequence
  *
  * Определим гармоничную подпоследовательность как подпоследовательность
  * массива, в которой разница между максимальным и минимальным

@@ -1,15 +1,19 @@
 package org.example.g0001_0100.s0020_valid_parentheses;
+// #Easy #Top_100_Liked_Questions #Top_Interview_Questions #String #Stack
+// #Udemy_Strings #Top_Interview_150_Stack
 
 import java.util.Stack;
 
 /**
- * LeetCode #Easy #String
+ * 20. Valid Parentheses
+ *
  * Дана строка s, содержащая только символы '(', ')', '{', '}', '[' и ']'.
  * Необходимо определить, является ли строка валидной, если:
  * Открытые скобки должны быть закрыты скобками того же типа
  * Скобки должны закрываться в правильном порядке
  *
  * (кажется такие задачи в Яндексе любят)
+ * todo переделать
  */
 public class Solution {
     public boolean isValid(String s) {

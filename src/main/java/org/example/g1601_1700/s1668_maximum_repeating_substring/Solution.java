@@ -1,12 +1,18 @@
 package org.example.g1601_1700.s1668_maximum_repeating_substring;
 
+// #Easy #String #String_Matching
+
 /**
+ * 1668. Maximum Repeating Substring
+ *
  * Задача: даны строка sequence и строка word.
  * Нужно найти максимальное значение k, при котором word,
  * повторенное k раз (т.е. word × k), является подстрокой sequence.
  * Если word не встречается в sequence, вернуть 0.
  *
  * Оптимальное решение: добавляем и проверяем
+ *
+ * todo доделать
  */
 public class Solution {
     public int maxRepeating(String sequence, String word) {

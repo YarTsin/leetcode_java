@@ -1,10 +1,12 @@
 package org.example.g0401_0500.s0409_longest_palindrome;
 
+// #Easy #String #Hash_Table #Greedy #HashMap
+
 import java.util.HashMap;
 import java.util.Map;
 
 /**
- * #Easy #String #HashMap #Greedy
+ * 409. Longest Palindrome
  *
  * Дана строка s, состоящая из буквенных символов
  * (верхнего и нижнего регистра). Необходимо найти длину

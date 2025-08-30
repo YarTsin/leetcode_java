@@ -2,7 +2,11 @@ package org.example.g0401_0500.s0455_assign_cookies;
 
 import java.util.Arrays;
 
+// #Easy #Array #Sorting #Greedy
+
 /**
+ * 455. Assign Cookies
+ *
  * #Easy #Array #Sort #Greedy #Pointers
  * Предположим, вы родитель и хотите раздать своим детям печенье.
  * Но каждому ребенку нужно дать не больше одного печенья.

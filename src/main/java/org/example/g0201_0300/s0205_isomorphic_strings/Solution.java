@@ -3,8 +3,12 @@ package org.example.g0201_0300.s0205_isomorphic_strings;
 import java.util.HashMap;
 import java.util.Map;
 
+// #Easy #String #Hash_Table #Top_Interview_150_Hashmap
+
 /**
- * LeetCode #Easy #String
+ *
+ * 205. Isomorphic Strings
+ *
  * Понимание задачи
  * Задача требует определить, являются ли две строки изоморфными.
  * Две строки считаются изоморфными, если символы первой строки

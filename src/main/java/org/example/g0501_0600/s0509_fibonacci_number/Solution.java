@@ -1,7 +1,9 @@
 package org.example.g0501_0600.s0509_fibonacci_number;
 
-/** +
- * LeetCode #Easy #DP
+// #Easy #Dynamic_Programming #Math #Recursion #Memoization
+
+/**
+ * 509. Fibonacci Number
  *
  * Как я понимаю это и есть классическая задача
  * на динамическое программирование - использование

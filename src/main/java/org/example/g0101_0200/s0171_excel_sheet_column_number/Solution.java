@@ -1,7 +1,11 @@
 package org.example.g0101_0200.s0171_excel_sheet_column_number;
 
+// #Easy #Top_Interview_Questions #String #Math #Recursion
+
+
 /**
- * LeetCode #Easy #Math #Recursion
+ * 171. Excel Sheet Column Number
+ *
  * Требуется преобразовать заголовок столбца Excel
  * в соответствующее число. (обратно задаче 168)
  * Пример

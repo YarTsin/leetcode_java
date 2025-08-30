@@ -1,7 +1,11 @@
 package org.example.g0101_0200.s0121_best_time_to_buy_and_sell_stock;
 
+// #Easy #Top_100_Liked_Questions #Top_Interview_Questions #Array #Dynamic_Programming
+// #Top_Interview_150_Array/String
+
 /**
- * #Easy #Array
+ * 121. Best Time to Buy and Sell Stock
+ *
  * Задача: дан массив цен на акции, где prices[i] -
  * цена акции в i-й день. Нужно найти максимальную прибыль,
  * которую можно получить, купив акции в один день и продав в

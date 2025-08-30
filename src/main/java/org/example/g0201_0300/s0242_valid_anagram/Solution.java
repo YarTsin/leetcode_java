@@ -1,12 +1,17 @@
 package org.example.g0201_0300.s0242_valid_anagram;
 
+// #Easy #String #Hash_Table #Sorting #Top_Interview_150_Hashmap
+
 /**
- * LeetCode #Easy #String
+ * 242. Valid Anagram
+ *
  * Понимание задачи
  * Задача требует определить, являются ли две строки анаграммами.
  * Анаграммы - это слова или фразы, образованные перестановкой букв
  * другого слова или фразы, обычно с использованием всех исходных букв
  * ровно один раз.
+ *
+ * todo доделать
  */
 public class Solution {
     public boolean isAnagram(String s, String t) {

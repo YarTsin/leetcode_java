@@ -1,7 +1,10 @@
 package org.example.g0201_0300.s0258_add_digits;
 
+// #Easy #Math #Simulation #Number_Theory
+
+
 /**
- * #Easy #Math
+ * 258. Add Digits
  * Дано неотрицательное целое число num.
  * Необходимо сложить все его цифры, затем сложить цифры полученной суммы
  * и повторять этот процесс, пока не получится однозначное число.
@@ -12,6 +15,8 @@ package org.example.g0201_0300.s0258_add_digits;
  * Explanation: 3 + 8 = 11, 1 + 1 = 2
  *
  * Используем математический подход - цифровой корень
+ *
+ * todo доделать
  */
 class Solution {
     public int addDigits(int num) {

@@ -1,7 +1,10 @@
 package org.example.g0201_0300.s0263_ugly_number;
 
+// #Easy #Math
+
 /**
- * #Easy #Math
+ * 263. Ugly Number
+ *
  * Дано целое число n. Необходимо определить, является ли оно
  * "ugly number" (некрасивым числом).
  * Ugly number - это положительное число, простые множители

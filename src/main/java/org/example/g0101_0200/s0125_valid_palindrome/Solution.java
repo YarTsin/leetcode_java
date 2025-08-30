@@ -1,7 +1,11 @@
 package org.example.g0101_0200.s0125_valid_palindrome;
 
+// #Easy #Top_Interview_Questions #String #Two_Pointers
+// #Top_Interview_150_Two_Pointers
+
 /**
- * LeetCode #Easy #String
+ * 125. Valid Palindrome
+ *
  * Задача требует определить, является ли строка палиндромом,
  * учитывая только буквенно-цифровые символы и игнорируя регистр.
  * Палиндром - это строка, которая читается одинаково как слева направо,

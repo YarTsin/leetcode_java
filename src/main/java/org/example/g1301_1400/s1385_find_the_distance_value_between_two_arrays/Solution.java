@@ -1,9 +1,10 @@
 package org.example.g1301_1400.s1385_find_the_distance_value_between_two_arrays;
 
+// #Easy #Array #Sorting #Binary_Search #Two_Pointers
+
 import java.util.Arrays;
 
 /**
- * #Easy #Array #Sort #BinarySearch #Pointers
  * 1385. Find the Distance Value Between Two Arrays
  *
  * Даны два целочисленных массива arr1 и arr2,

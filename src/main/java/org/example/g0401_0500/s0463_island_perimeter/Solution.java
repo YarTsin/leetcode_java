@@ -1,8 +1,8 @@
 package org.example.g0401_0500.s0463_island_perimeter;
 
+// #Easy #Array #Depth_First_Search #Breadth_First_Search #Matrix
+
 /**
- * #Easy #Array #DFS #Matrix
- *
  * 463. Island Perimeter
  *
  * Вычислить периметр острова в двумерной сетке.

@@ -1,11 +1,12 @@
 package org.example.g1301_1400.s1346_check_if_n_and_its_double_exist;
 
+// #Easy #Array #Hash_Table #Sorting #Binary_Search #Two_Pointers
+// #HashMap
+
 import java.util.HashSet;
 import java.util.Set;
 
 /**
- * #Easy #Array #HashMap #Sort #Pointers
- *
  * 1346. Check If N and Its Double Exist
  *
  * Условие задачи:

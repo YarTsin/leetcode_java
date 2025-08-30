@@ -1,10 +1,14 @@
 package org.example.g0201_0300.s0202_happy_number;
 
+// #Easy #Top_Interview_Questions #Hash_Table #Math #Two_Pointers
+// #Top_Interview_150_Hashmap
+
 import java.util.HashSet;
 import java.util.Set;
 
 /**
- * LeetCode #Easy #Math
+ * 202. Happy Number
+ *
  * Нам нужно определить, является ли число "счастливым".
  * Счастливое число - это число, которое в процессе замены суммы
  * квадратов его цифр в конечном итоге достигает 1.

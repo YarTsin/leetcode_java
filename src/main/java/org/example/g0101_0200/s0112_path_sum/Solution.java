@@ -1,8 +1,9 @@
 package org.example.g0101_0200.s0112_path_sum;
 
+// #Easy #Depth_First_Search #Breadth_First_Search #Tree #Binary_Tree
+// #Top_Interview_150_Binary_Tree_General
+
 /**
- * #Easy #DFS #BFS #Tree #BinaryTree #Recursion
- * #Top_Interview_150_Binary_Tree_General
  *
  * 112. Path Sum
  *

@@ -1,11 +1,14 @@
 package org.example.g0001_0100.s0014_longest_common_prefix;
+// #Easy #Top_Interview_Questions #String #Udemy_Strings
+// #Top_Interview_150_Array/String
 
 /**
- * LeetCode #Easy #String
+ * 14. Longest Common Prefix
  * Находим максимальную длину префикса массива строк
  * Пример:
  * Вход: strs = ["flower","flow","flight"]
  * Выход: "fl" (так как все строки начинаются с "fl")
+ * todo переделать
  */
 public class Solution {
     public String longestCommonPrefix(String[] strs) {

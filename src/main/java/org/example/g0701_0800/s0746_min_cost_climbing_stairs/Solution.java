@@ -1,6 +1,10 @@
 package org.example.g0701_0800.s0746_min_cost_climbing_stairs;
 
+// #Easy #Array #Dynamic_Programming #LeetCode_75_DP/1D
+
 /**
+ * 746. Min Cost Climbing Stairs
+ *
  * Задача: дан массив cost, где cost[i] -
  * это стоимость ступеньки с индексом i.
  * Вы можете подниматься по лестнице, наступая либо на 1,

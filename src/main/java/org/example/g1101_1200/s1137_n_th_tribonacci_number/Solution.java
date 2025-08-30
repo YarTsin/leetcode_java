@@ -1,6 +1,10 @@
 package org.example.g1101_1200.s1137_n_th_tribonacci_number;
 
+// #Easy #Dynamic_Programming #Math #Memoization #LeetCode_75_DP/1D
+
 /**
+ * 1137. N-th Tribonacci Number
+ *
  * #Easy #DP
  * Понимание задачи
  * Числа Трибоначчи - это последовательность, где каждое число является

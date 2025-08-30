@@ -1,9 +1,10 @@
 package org.example.g0201_0300.s0222_count_complete_tree_nodes;
 
+// #Easy #Depth_First_Search #Tree #Binary_Search #Binary_Tree
+// #Top_Interview_150_Binary_Tree_General #Recursion
+
+
 /**
- * #Easy #DFS #Tree #BinarySearch #BinaryTree #Recursion
- * #Top_Interview_150_Binary_Tree_General
- *
  * 222. Count Complete Tree Nodes
  *
  * Задача: Подсчитать количество узлов в полном бинарном дереве.

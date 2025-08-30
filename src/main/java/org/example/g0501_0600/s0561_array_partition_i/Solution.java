@@ -2,8 +2,11 @@ package org.example.g0501_0600.s0561_array_partition_i;
 
 import java.util.Arrays;
 
+// #Easy #Array #Sorting #Greedy #Counting_Sort
+
+
 /**
- * #Easy #Array #Sort #Greedy #Counting_Sort
+ * 561. Array Partition I
  *
  * Дан массив nums из 2n целых чисел. Необходимо разбить эти числа
  * на n пар (a1, b1), (a2, b2), ..., (an, bn) так,

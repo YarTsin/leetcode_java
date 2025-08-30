@@ -3,8 +3,10 @@ package org.example.g0101_0200.s0144_binary_tree_preorder_traversal;
 import java.util.ArrayList;
 import java.util.List;
 
+// #Easy #Depth_First_Search #Tree #Binary_Tree #Stack #Recursion
+// #Morris_Traversal
+
 /**
- * #Easy #DFS #Tree #BinaryTree #Stack #Recursion
  * 144. Binary Tree Preorder Traversal
  *
  * Условие: Дано бинарное дерево. Необходимо вернуть значения узлов
@@ -13,6 +15,8 @@ import java.util.List;
  * примеры внизу
  *
  * Оптимальное решение (Рекурсивное) - самое быстрое - 0 ms
+ *
+ * todo доделать
  */
 class Solution {
     public List<Integer> preorderTraversal(TreeNode root) {

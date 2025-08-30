@@ -1,11 +1,16 @@
 package org.example.g0001_0100.s0066_plus_one;
+// #Easy #Top_Interview_Questions #Array #Math #Udemy_Arrays
+// #Top_Interview_150_Math
+
 
 /**
- * LeetCode #Easy #Array
+ * 66. Plus One
+ *
  * Нужно вернуть массив увеличенный на 1
  * [1, 2, 3] → [1, 2, 4] (123 + 1 = 124)
  * или добавить 1 и вернуть новый массив
  * [9, 9, 9] → [1, 0, 0, 0] (999 + 1 = 1000)
+ * todo переделать
  */
 public class Solution {
     public int[] plusOne(int[] digits) {

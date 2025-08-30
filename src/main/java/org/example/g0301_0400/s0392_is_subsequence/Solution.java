@@ -1,13 +1,19 @@
 package org.example.g0301_0400.s0392_is_subsequence;
 
+// #Easy #String #Dynamic_Programming #Two_Pointers #LeetCode_75_Two_Pointers
+// #Top_Interview_150_Two_Pointers
 
 /**
+ * 392. Is Subsequence
+ *
  * Задача: даны две строки s и t. Нужно проверить, является ли s
  * подпоследовательностью t. Подпоследовательность - это последовательность символов,
  * которая появляется в том же порядке, но не обязательно подряд.
  * Примеры:
  * s = "abc", t = "ahbgdc" → true
  * s = "axc", t = "ahbgdc" → false
+ *
+ * todo доделать
  *
  */
 public class Solution {

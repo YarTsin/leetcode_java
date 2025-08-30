@@ -1,7 +1,9 @@
 package org.example.g0101_0200.s0111_minimum_depth_of_binary_tree;
 
+// #Easy #Depth_First_Search #Breadth_First_Search #Tree #Binary_Tree
+
 /**
- * #Easy #DFS #BFS #Tree #BinaryTree
+ * 111. Minimum Depth of Binary Tree
  *
  * Дано бинарное дерево. Необходимо найти его минимальную глубину.
  *

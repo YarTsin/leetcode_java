@@ -1,7 +1,9 @@
 package org.example.g0601_0700.s0645_set_mismatch;
 
+// #Easy #Array #Hash_Table #Sorting #Bit_Manipulation #Math
+
 /**
- * #Easy #Array #Math
+ * 645. Set Mismatch
  *
  * Вам дан массив nums, представляющий набор чисел от 1 до n, где:
  * Одно число продублировано (дубликат)  * Одно число отсутствует (пропуск)

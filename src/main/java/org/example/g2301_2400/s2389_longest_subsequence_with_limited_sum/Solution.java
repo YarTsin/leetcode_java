@@ -1,10 +1,10 @@
 package org.example.g2301_2400.s2389_longest_subsequence_with_limited_sum;
 
+// #Easy #Array #Sorting #Greedy #Binary_Search #Prefix_Sum #Pointers
 
 import java.util.Arrays;
 
 /**
- * #Easy #Array #Sort #Greedy #BinarySearch #PrefixSum #Pointers
  * 2389. Longest Subsequence With Limited Sum
  *
  * Дан массив целых чисел nums и массив целых чисел queries.

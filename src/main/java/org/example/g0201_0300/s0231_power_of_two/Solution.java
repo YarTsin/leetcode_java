@@ -1,7 +1,11 @@
 package org.example.g0201_0300.s0231_power_of_two;
 
+// #Easy #Math #Bit_Manipulation #Recursion
+
+
 /**
- * #Easy #Math  Степень числа
+ * 231. Power of Two
+ *
  * Задача: является ли заданное целое число степенью двойки.
  * Примеры:
  * 1 → true (2^0)

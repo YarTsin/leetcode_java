@@ -1,7 +1,8 @@
 package org.example.g0701_0800.s0704_binary_search;
 
+// #Easy #Array #Binary_Search #Recursion
+
 /**
- * #Easy #Array #BinarySearch #Recursion
  * 704. Binary Search
  *
  * Дан массив целых чисел nums, отсортированный в порядке

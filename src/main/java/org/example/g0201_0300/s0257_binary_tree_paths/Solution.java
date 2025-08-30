@@ -3,9 +3,11 @@ package org.example.g0201_0300.s0257_binary_tree_paths;
 import java.util.ArrayList;
 import java.util.List;
 
+// #Easy #String #Depth_First_Search #Tree #Binary_Tree #Backtracking
+// #Recursion
+
 /**
- * #Easy #String #Recursion
- * #DFS #Tree #BinaryTree #Backtracking
+ * 257. Binary Tree Paths
  *
  * Условие: Дана структура бинарного дерева. Необходимо вернуть все корневые
  * пути от корня к листьям в виде строк.

@@ -1,7 +1,10 @@
 package org.example.g0901_1000.s0942_di_string_match;
 
+// #Easy #Array #String #Math #Greedy #Two_Pointers
+// #2022_03_30_Time_4_ms_(33.74%)_Space_48.7_MB_(20.18%)
+
 /**
- * #Easy #Array #String #Math #Greedy #Pointers
+ * 942. DI String Match
  *
  * Условие: Дана строка s, состоящая только из символов
  * 'I' (increase) и 'D' (decrease). Нужно вернуть любую

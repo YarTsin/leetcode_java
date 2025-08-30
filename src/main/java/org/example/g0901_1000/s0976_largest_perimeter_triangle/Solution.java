@@ -1,8 +1,12 @@
 package org.example.g0901_1000.s0976_largest_perimeter_triangle;
 
+// #Easy #Array #Math #Sorting #Greedy
+
 import java.util.Arrays;
 
 /**
+ * 976. Largest Perimeter Triangle
+ *
  * #Easy #Array #Math #Sort #Greedy
  * Условие: Дан массив положительных целых чисел nums.
  * Нужно вернуть наибольший периметр треугольника, который можно

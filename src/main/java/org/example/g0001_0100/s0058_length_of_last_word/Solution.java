@@ -1,12 +1,13 @@
 package org.example.g0001_0100.s0058_length_of_last_word;
-
+// #Easy #String #Udemy_Arrays #Top_Interview_150_Array/String
 
 /**
- * LeetCode #Easy #String
+ *  58. Length of Last Word
  * Дана строка s, состоящая из слов и пробелов.
  * Необходимо вернуть длину последнего слова в строке.
  *
  * (возможно тут можно придумать решение поинтереснее)
+ * todo переделать
  */
 public class Solution {
     public int lengthOfLastWord(String s) {

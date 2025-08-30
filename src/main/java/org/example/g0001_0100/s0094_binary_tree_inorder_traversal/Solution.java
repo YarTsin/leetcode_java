@@ -1,11 +1,13 @@
 package org.example.g0001_0100.s0094_binary_tree_inorder_traversal;
+// #Easy #Top_100_Liked_Questions #Top_Interview_Questions #Depth_First_Search #Tree #Binary_Tree
+// #Stack #Udemy_Tree_Stack_Queue #Recursion
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * #Easy #Recursion
- * #DFS #Tree #BinaryTree #inorderTraversal
+ *
+ * 94. Binary Tree Inorder Traversal
  *
  * Условие: Дано бинарное дерево. Необходимо вернуть значения узлов в
  * порядке inorder traversal (левое поддерево → корень → правое поддерево).
@@ -17,6 +19,8 @@ import java.util.List;
  *
  * (Примеры внизу)
  * Оптимальное решение - рекурсивное
+ *
+ * todo доделать
  *
  * самое быстрое - 0 ms
  */

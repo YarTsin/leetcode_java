@@ -1,6 +1,9 @@
 package org.example.g0401_0500.s0405_convert_a_number_to_hexadecimal;
+
+// #Easy #Math #Bit_Manipulation
+
 /**
- * #Easy #Bits #Math
+ * 405. Convert a Number to Hexadecimal
  *
  * Дано целое число. Необходимо преобразовать его в шестнадцатеричное (hex)
  * представление. Для отрицательных чисел следует использовать
