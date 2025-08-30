@@ -58,7 +58,7 @@ Level Easy (#Easy)<br>
 [645. Set Mismatch](src/main/java/org/example/g0601_0700/s0645_set_mismatch) &nbsp;&nbsp;
 [860. Lemonade Change](src/main/java/org/example/g0801_0900/s0860_lemonade_change) &nbsp;&nbsp;
 [2089. Find Target Indices After Sorting Array](src/main/java/org/example/g2001_2100/s2089_find_target_indices_after_sorting_array) &nbsp;&nbsp;
-[2900. Longest Unequal Adjacent Groups Subsequence I](src/main/java/org/example/g2801_2900/p2900_longest_unequal_adjacent_groups_subsequence_i) &nbsp;&nbsp;
+[2900. Longest Unequal Adjacent Groups Subsequence I](src/main/java/org/example/g2801_2900/s2900_longest_unequal_adjacent_groups_subsequence_i) &nbsp;&nbsp;
 <br><br>
 
 <b>Breadth-First Search (#BFS)</b><br>
@@ -431,7 +431,7 @@ Level Easy (#Easy)<br>
 [680. Valid Palindrome II](src/main/java/org/example/g0601_0700/s0680_valid_palindrome_ii) &nbsp;&nbsp;
 [942. DI String Match](src/main/java/org/example/g0901_1000/s0942_di_string_match) &nbsp;&nbsp;
 [1668. Maximum Repeating Substring](src/main/java/org/example/g1601_1700/s1668_maximum_repeating_substring) &nbsp;&nbsp;
-[2900. Longest Unequal Adjacent Groups Subsequence I](src/main/java/org/example/g2801_2900/p2900_longest_unequal_adjacent_groups_subsequence_i) &nbsp;&nbsp;
+[2900. Longest Unequal Adjacent Groups Subsequence I](src/main/java/org/example/g2801_2900/s2900_longest_unequal_adjacent_groups_subsequence_i) &nbsp;&nbsp;
 <br><br>
 
 

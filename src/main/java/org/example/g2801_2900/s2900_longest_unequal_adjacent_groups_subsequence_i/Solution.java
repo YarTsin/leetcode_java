@@ -1,4 +1,4 @@
-package org.example.g2801_2900.p2900_longest_unequal_adjacent_groups_subsequence_i;
+package org.example.g2801_2900.s2900_longest_unequal_adjacent_groups_subsequence_i;
 
 // #Easy #Array #String #Dynamic_Programming #Greedy
 
