@@ -22,7 +22,7 @@
 Жми ★ если понравилось.<br><br>
 
 Моя статистика: [https://leetcode.com/u/YarTsin/](https://leetcode.com/u/YarTsin/) <br>
-Решено более 90 задач<br><br>
+Решено более 100 задач<br><br>
 
 
 <b>Array (#Array)</b> <br> 
