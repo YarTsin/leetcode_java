@@ -3,6 +3,8 @@ package org.example.g0101_0200.s0160_intersection_of_two_linked_lists;
 // #Easy #Top_100_Liked_Questions #Top_Interview_Questions
 // #Hash_Table #Two_Pointers #Linked_List
 
+import org.example.a_leetcode_classes.ListNode;
+
 /**
  * 160. Intersection of Two Linked Lists
  *

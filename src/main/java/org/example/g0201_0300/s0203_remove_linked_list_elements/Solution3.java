@@ -1,10 +1,10 @@
 package org.example.g0201_0300.s0203_remove_linked_list_elements;
 
+import org.example.a_leetcode_classes.ListNode;
+
 /**
  * Решение без фиктивного узла (с обработкой головы отдельно)
- * Сложность:
- * Время: O(n)
- * Память: O(1)
+ * Сложность:  * Время: O(n)  * Память: O(1)
  */
 class Solution3 {
     public ListNode removeElements(ListNode head, int val) {

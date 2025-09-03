@@ -4,6 +4,8 @@ package org.example.g0201_0300.s0226_invert_binary_tree;
 // #Top_Interview_150_Binary_Tree_General
 
 
+import org.example.a_leetcode_classes.TreeNode;
+
 /**
  * 226. Invert Binary Tree
  *

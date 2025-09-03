@@ -1,5 +1,7 @@
 package org.example.g0201_0300.s0222_count_complete_tree_nodes;
 
+import org.example.a_leetcode_classes.TreeNode;
+
 /**
  * Альтернативное решение - Полный обход - не оптимально
  * Объяснение:

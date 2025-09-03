@@ -1,5 +1,7 @@
 package org.example.g0401_0500.s0404_sum_of_left_leaves;
 
+import org.example.a_leetcode_classes.TreeNode;
+
 /**
  * Альтернативное решение - рекурсивное без дополнительного параметра
  * Объяснение: В этом подходе мы проверяем для каждого узла, является

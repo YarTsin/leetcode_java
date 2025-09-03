@@ -4,6 +4,8 @@ package org.example.g0101_0200.s0104_maximum_depth_of_binary_tree;
 // #Tree #Binary_Tree #LeetCode_75_Binary_Tree/DFS #Recursion
 // #Top_Interview_150_Binary_Tree_General
 
+import org.example.a_leetcode_classes.TreeNode;
+
 /**
  * 104. Maximum Depth of Binary Tree
  *

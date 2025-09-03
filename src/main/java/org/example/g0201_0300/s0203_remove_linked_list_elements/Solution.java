@@ -2,6 +2,8 @@ package org.example.g0201_0300.s0203_remove_linked_list_elements;
 
 // #Easy #Linked_List #Recursion
 
+import org.example.a_leetcode_classes.ListNode;
+
 /**
  * 203. Remove Linked List Elements
  *

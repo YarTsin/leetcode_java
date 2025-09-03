@@ -1,5 +1,7 @@
 package org.example.g0501_0600.s0501_find_mode_in_binary_search_tree;
 
+import org.example.a_leetcode_classes.TreeNode;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;

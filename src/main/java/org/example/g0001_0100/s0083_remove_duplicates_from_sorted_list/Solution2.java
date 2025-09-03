@@ -1,5 +1,7 @@
 package org.example.g0001_0100.s0083_remove_duplicates_from_sorted_list;
 
+import org.example.a_leetcode_classes.ListNode;
+
 /**
  * Решение с рекрурсией
  * Сложность:

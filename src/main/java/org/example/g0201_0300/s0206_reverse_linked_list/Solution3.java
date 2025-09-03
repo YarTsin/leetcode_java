@@ -1,5 +1,7 @@
 package org.example.g0201_0300.s0206_reverse_linked_list;
 
+import org.example.a_leetcode_classes.ListNode;
+
 import java.util.Stack;
 
 /**

@@ -2,6 +2,8 @@ package org.example.g0101_0200.s0110_balanced_binary_tree;
 
 // #Easy #Depth_First_Search #Tree #Binary_Tree #Recursion
 
+import org.example.a_leetcode_classes.TreeNode;
+
 /**
  *
  * 110. Balanced Binary Tree

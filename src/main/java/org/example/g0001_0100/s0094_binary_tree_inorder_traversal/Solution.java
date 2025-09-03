@@ -2,6 +2,8 @@ package org.example.g0001_0100.s0094_binary_tree_inorder_traversal;
 // #Easy #Top_100_Liked_Questions #Top_Interview_Questions #Depth_First_Search #Tree #Binary_Tree
 // #Stack #Udemy_Tree_Stack_Queue #Recursion
 
+import org.example.a_leetcode_classes.TreeNode;
+
 import java.util.ArrayList;
 import java.util.List;
 

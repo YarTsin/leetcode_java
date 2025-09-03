@@ -3,6 +3,8 @@ package org.example.g0001_0100.s0021_merge_two_sorted_lists;
 // #Easy #Top_100_Liked_Questions #Top_Interview_Questions #Linked_List #Recursion
 // #Top_Interview_150_Linked_List
 
+import org.example.a_leetcode_classes.ListNode;
+
 /**
  * 21. Merge Two Sorted Lists
  *

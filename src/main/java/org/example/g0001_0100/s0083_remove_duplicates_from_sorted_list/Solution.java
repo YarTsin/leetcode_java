@@ -3,6 +3,8 @@ package org.example.g0001_0100.s0083_remove_duplicates_from_sorted_list;
 // #Easy #Linked_List #Recursion
 
 
+import org.example.a_leetcode_classes.ListNode;
+
 /**
  * 83. Remove Duplicates from Sorted List
  *

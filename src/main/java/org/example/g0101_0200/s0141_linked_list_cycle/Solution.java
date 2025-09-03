@@ -3,6 +3,8 @@ package org.example.g0101_0200.s0141_linked_list_cycle;
 // #Easy #Top_100_Liked_Questions #Top_Interview_Questions #Hash_Table #Two_Pointers #Linked_List
 // #Top_Interview_150_Linked_List
 
+import org.example.a_leetcode_classes.ListNode;
+
 /**
  * 141. Linked List Cycle
  *

@@ -1,5 +1,7 @@
 package org.example.g0101_0200.s0112_path_sum;
 
+import org.example.a_leetcode_classes.TreeNode;
+
 import java.util.LinkedList;
 import java.util.Queue;
 

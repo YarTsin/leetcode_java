@@ -1,5 +1,7 @@
 package org.example.g0101_0200.s0145_binary_tree_postorder_traversal;
 
+import org.example.a_leetcode_classes.TreeNode;
+
 import java.util.ArrayList;
 import java.util.List;
 

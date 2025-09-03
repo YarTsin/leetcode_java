@@ -3,6 +3,8 @@ package org.example.g0101_0200.s0112_path_sum;
 // #Easy #Depth_First_Search #Breadth_First_Search #Tree #Binary_Tree
 // #Top_Interview_150_Binary_Tree_General
 
+import org.example.a_leetcode_classes.TreeNode;
+
 /**
  *
  * 112. Path Sum

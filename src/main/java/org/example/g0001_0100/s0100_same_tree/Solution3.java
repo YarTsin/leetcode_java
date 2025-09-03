@@ -1,5 +1,7 @@
 package org.example.g0001_0100.s0100_same_tree;
 
+import org.example.a_leetcode_classes.TreeNode;
+
 import java.util.Stack;
 
 /**

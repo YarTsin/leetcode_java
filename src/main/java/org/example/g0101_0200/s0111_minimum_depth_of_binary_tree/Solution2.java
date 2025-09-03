@@ -1,5 +1,7 @@
 package org.example.g0101_0200.s0111_minimum_depth_of_binary_tree;
 
+import org.example.a_leetcode_classes.TreeNode;
+
 import java.util.LinkedList;
 import java.util.Queue;
 

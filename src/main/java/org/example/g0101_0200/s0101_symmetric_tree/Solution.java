@@ -4,6 +4,8 @@ package org.example.g0101_0200.s0101_symmetric_tree;
 // #Tree #Binary_Tree
 // #Top_Interview_150_Binary_Tree_General
 
+import org.example.a_leetcode_classes.TreeNode;
+
 /**
  *
  * 101. Symmetric Tree

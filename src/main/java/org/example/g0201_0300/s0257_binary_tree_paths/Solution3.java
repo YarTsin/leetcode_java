@@ -1,5 +1,6 @@
 package org.example.g0201_0300.s0257_binary_tree_paths;
 
+import org.example.a_leetcode_classes.TreeNode;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;

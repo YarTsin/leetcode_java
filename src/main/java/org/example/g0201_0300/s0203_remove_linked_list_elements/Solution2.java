@@ -1,5 +1,7 @@
 package org.example.g0201_0300.s0203_remove_linked_list_elements;
 
+import org.example.a_leetcode_classes.ListNode;
+
 /**
  * Решение с рекурсией
  * Сложность:

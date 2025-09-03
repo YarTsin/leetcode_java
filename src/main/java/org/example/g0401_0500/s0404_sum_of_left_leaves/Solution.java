@@ -3,6 +3,8 @@ package org.example.g0401_0500.s0404_sum_of_left_leaves;
 // #Easy #Depth_First_Search #Breadth_First_Search #Tree #Binary_Tree #Recursion
 
 
+import org.example.a_leetcode_classes.TreeNode;
+
 /**
  * 404. Sum of Left Leaves
  *
