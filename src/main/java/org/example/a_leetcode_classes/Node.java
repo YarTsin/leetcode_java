@@ -6,42 +6,45 @@ import java.util.List;
 /**
  * Класс предоставляется платформой Leetcode
  * Реализация скрыта от пользователя
+ *
+ * Это для N арного дерева - children
+ * Для графа будет - соседи - neighbors
  */
 public class Node {
     public int val;
-    public List<Node> neighbors;
+    public List<Node> children;
 
     public Node() {
         val = 0;
-        neighbors = new ArrayList<>();
+        children = new ArrayList<>();
     }
 
     public Node(int val) {
         this.val = val;
-        neighbors = new ArrayList<>();
+        children = new ArrayList<>();
     }
 
-    public Node(int val, List<Node> neighbors) {
+    public Node(int val, List<Node> children) {
         this.val = val;
-        this.neighbors = neighbors;
+        this.children = children;
     }
 
     @Override
     public String toString() {
         StringBuilder result = new StringBuilder();
         result.append("[");
-        for (int i = 0; i < neighbors.size(); i++) {
-            Node node = neighbors.get(i);
+        for (int i = 0; i < children.size(); i++) {
+            Node node = children.get(i);
             if (i > 0) {
                 result.append(",");
             }
-            if (node.neighbors.isEmpty()) {
+            if (node.children.isEmpty()) {
                 result.append(node.val);
             } else {
                 StringBuilder result2 = new StringBuilder();
                 result2.append("[");
-                for (int j = 0; j < node.neighbors.size(); j++) {
-                    Node nodeItem = node.neighbors.get(j);
+                for (int j = 0; j < node.children.size(); j++) {
+                    Node nodeItem = node.children.get(j);
                     if (j > 0) {
                         result2.append(",");
                     }
