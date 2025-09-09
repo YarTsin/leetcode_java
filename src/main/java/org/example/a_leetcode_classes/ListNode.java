@@ -5,6 +5,7 @@ import java.util.Objects;
 /**
  * Класс предоставляется платформой Leetcode
  * Реализация скрыта от пользователя
+ * Односвязный список
  */
 public class ListNode {
     public int val;
